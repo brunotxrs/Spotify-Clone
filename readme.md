@@ -12,7 +12,7 @@ Estou trabalhando ativamente no desenvolvimento deste projeto e, atualmente, ele
 
 ## Como Contribuir
 
-Se você deseja ajudar no desenvolvimento ou sugerir melhorias, fique à vontade para abrir um pull request ou issue. Ficaremos felizes em contar com sua colaboração!
+Se você deseja ajudar no desenvolvimento ou sugerir melhorias, fique à vontade para abrir um pull request ou issue. Ficarei feliz em contar com sua colaboração!
 
 ## Tecnologias Utilizadas
 
@@ -20,7 +20,7 @@ Se você deseja ajudar no desenvolvimento ou sugerir melhorias, fique à vontade
 
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) → Estilização e responsividade
 
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) → Lógica do jogo e interações
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) → Lógica e interações
 ## Planejamento
 
 - Adicionar novas funcionalidades.
