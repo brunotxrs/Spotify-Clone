@@ -1,8 +1,7 @@
-.artistas_populares {
+.artistas_populares{
     width: 100%;
     height: 100%;
         
-
     .artistas_populares_box_one {
         width: 100%;
         height: 260px;
@@ -26,7 +25,7 @@
               
         }
     
-        .artista_one{
+        .artista_one {
             flex: 0 0 auto;
             width: 150px;
             height: 90%;
@@ -62,169 +61,114 @@
                 border-radius: 5px;
                 margin-bottom: 5px;
 
-
-                .henrique-e-juliano {
+                .backg {
                     width: 100%;
                     height: 100%;
                     border-radius: 5px;
-                    background: url(https://th.bing.com/th/id/R.9792fe0bc07e7b221d8b3add32e36db3?rik=IoXY2eMmNNHwGA&pid=ImgRaw&r=0) no-repeat center;
+                    
+                }
+
+
+                .henrique-e-juliano {
+                    background: url(../img/mobile/c-1.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .mc-tuto {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
                     background: url(https://lyricstranslate.com/files/ab6761610000e5eb32f37851f7aa2c9088749be9.jpg) no-repeat center;
                     background-size: cover;
                 }
 
                 .jorge-e-mateus {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://th.bing.com/th/id/R.0a7a231f68631c7b1aa4e82bb2a7cc03?rik=2S0YAHFECa4KZA&pid=ImgRaw&r=0) no-repeat center;
+                    background: url(../img/mobile/c-3.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .grupo-menos-e-mais {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2021/07/286572f-grupo-menos-e-mais-1606455239194_v2_1920x1280-1024x683.jpg) no-repeat center;
+                    background: url(../img/mobile/c-4.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .nattan {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://th.bing.com/th/id/OIP.yu-5LoQlk-EWdnccPt7W8QHaEK?rs=1&pid=ImgDetMain) no-repeat center;
+                    background: url(../img/mobile/c-5.jpeg) no-repeat center;
                     background-size: cover;
 
                 }
 
                 .matheus-e-kauan {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://th.bing.com/th/id/OIP.1QmeCDWrt6p8oYvTWRvv7QHaHa?rs=1&pid=ImgDetMain) no-repeat center;
+                    background: url(../img/mobile/c-6.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .ze-neto-e-cristiano {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://pida.com.br/fotos/pida_noticias/3647/IMAGEM_INTERNA_0.jpg?v=2e20ec16b85dab3) no-repeat center;
+                    background: url(../img/mobile/c-7.jpeg) no-repeat center;
                     background-size: cover;
                 }
                 
                 .oruam {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
                     background: url(https://th.bing.com/th/id/OIP.PWXJY-nGYgmERmEVkEA4dQHaI6?rs=1&pid=ImgDetMain) no-repeat center;
                     background-size: cover;
                 }
 
                 .murilo-huff {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://images.sk-static.com/images/media/profile_images/artists/10188663/huge_avatar) no-repeat center;
+                    background: url(../img/mobile/c-8.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .hugo-e-guilherme {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://www.agorams.com.br/wp-content/uploads/2022/12/Caarapo-Hugo-e-Guilherme.jpg) no-repeat center;
+                    background: url(../img/mobile/c-9.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .gusttavo-lima {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://akamai.sscdn.co/tb/cifra-blog/pt/wp-content/uploads/2019/11/3048ef8-gusttavo-lima-violao.jpg) no-repeat center;
+                    background: url(../img/mobile/c-10.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .leo-foguete {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2024/11/7105872-quem-e-leo-foguete.png) no-repeat center;
+                    background: url(../img/mobile/c-11.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
-                .mc-luuky{
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
+                .mc-luuky {
                     background: url(https://th.bing.com/th/id/OIP.-unjFctvY0GphqJ3wuV_bQHaHa?rs=1&pid=ImgDetMain) no-repeat center;
                     background-size: cover;
                 }
 
                 .nilo {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://lastfm.freetls.fastly.net/i/u/ar0/3dd12726461df2731c170bfab54a3299.jpg) no-repeat center;
+                    background: url(../img/mobile/c-12.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .luan-pereira {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://f.i.uol.com.br/fotografia/2023/08/15/169213584464dbf1a421f5f_1692135844_3x2_md.jpg) no-repeat center;
+                    background: url(../img/mobile/c-13.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .guilherme-e-benuto {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://i0.wp.com/portalpopmais.com.br/wp-content/uploads/2022/06/artista-guilherme-e-benuto.jpg?fit=900%2C900&ssl=1) no-repeat center;
+                    background: url(../img/mobile/c-14.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .marilia-mendonca {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
                     background: url(https://mixdeseries.com.br/wp-content/uploads/2023/09/cropped-Prime_Video_lancara_filme_biografico_de_Marilia_Mendonca._1.webp) no-repeat center;
                     background-size: cover;
                 }
 
                 .gustavo-mioto {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://noticia1.com.br/wp-content/uploads/2023/08/Gustavo-Mioto.webp) no-repeat center;
+                    background: url(../img/mobile/c-15.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .henry-freitas {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://180graus.com/180graus/media/image_bank/2024/2/_8157469389346366759.png.800x0_q85_crop.jpg) no-repeat center;
+                    background: url(../img/mobile/c-16.jpeg) no-repeat center;
                     background-size: cover;
                 }
 
                 .wesley-safadao {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 5px;
-                    background: url(https://th.bing.com/th/id/R.7c5553bab164b41f72563e3f59fad5be?rik=bISwyFA5dHvH4Q&riu=http%3a%2f%2fwww.papocult.com.br%2fwp-content%2fuploads%2f2017%2f04%2fwesley_safadao-foto-Ederson-Lima.jpg&ehk=qQvGtYuXogCZrfSH0SvnFXyJpYwKEQe5pARwL94Ogh4%3d&risl=&pid=ImgRaw&r=0) no-repeat center;
+                    background: url(../img/mobile/c-17.jpeg) no-repeat center;
                     background-size: cover;
                 }
-
-
 
             }
 
