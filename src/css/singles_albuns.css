@@ -184,4 +184,25 @@
 
 
     }
+
+
+    .music_albuns {
+        width: 100%;
+        height: 100%;
+
+
+        .albuns {
+            width: 100%;
+            height: 100%;
+            
+
+            iframe {
+                width: 100%;
+                height: 700px;
+                border: none;
+                border-radius: 0;
+            }
+            
+        }
+    }
 }
