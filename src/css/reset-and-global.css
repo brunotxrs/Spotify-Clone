@@ -30,4 +30,6 @@ body {
     display: none;
 }
 
-
+.curso-auto {
+    cursor: auto;
+}
