@@ -12,6 +12,10 @@
     --font-spotify: "Montserrat", serif;
 }
 
+html {
+    scrollbar-width: none;
+}
+
 body {
     background-color: #000;
     color: #fff;
@@ -19,6 +23,7 @@ body {
     height: 100vh;
 
     font-family: var(--font-spotify);
+    
 }
 
 .hidden { 
