@@ -37,27 +37,107 @@
                     border-radius: 5px;
                     margin-bottom: 5px;
 
-                    .bg_albuns-1 {
-                        background: url(../img/playlist/bg-1.png) no-repeat center;
-                    }
-
-                    .bg_albuns-2 {
-                        background: url(../img/playlist/bg-2.png) no-repeat center;
-                    }
-
-                    .bg_albuns-3 {
-                        background: url(../img/playlist/bg-3.png) no-repeat center;
-                    }
-
-
-                    .bg_albuns-1, .bg_albuns-2, .bg_albuns-3{
+                    .backg {
                         width: 100%;
                         height: 100%;
                         border-radius: 5px;
+                        
+                    }
+
+                    .bg_albuns-1 {
+                        background: url(../img/mobile/s-1.png) no-repeat center;
                         background-size: cover;
                     }
 
-                    
+                    .bg_albuns-2 {
+                        background: url(../img/mobile/s-2.png) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-3 {
+                        background: url(../img/mobile/s-3.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-4 {
+                        background: url(../img/mobile/s-4.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-5 {
+                        background: url(../img/mobile/s-5.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-6 {
+                        background: url(../img/mobile/s-6.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-7 {
+                        background: url(../img/mobile/s-7.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-8 {
+                        background: url(../img/mobile/s-8.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-9 {
+                        background: url(../img/mobile/s-9.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-10 {
+                        background: url(../img/mobile/s-10.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-11 {
+                        background: url(../img/mobile/s-11.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-12 {
+                        background: url(../img/mobile/s-12.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-13 {
+                        background: url(../img/mobile/s-13.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-14 {
+                        background: url(../img/mobile/s-14.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-15 {
+                        background: url(../img/mobile/s-15.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-16 {
+                        background: url(../img/mobile/s-16.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-17 {
+                        background: url(../img/mobile/s-17.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-18 {
+                        background: url(../img/mobile/s-18.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
+
+                    .bg_albuns-19 {
+                        background: url(../img/mobile/s-19.jpeg) no-repeat center;
+                        background-size: cover;
+                    }
 
                     .play {
                         width: 50px;
