@@ -1,0 +1,74 @@
+.section-3 {
+    width: 100%;
+    height: 17rem;
+
+    .h2 {
+        font-weight: var(--font-weight-mobile-600);
+        font-size: var(--font-size-mobile-1-2rem);
+        padding: 1rem 4rem 1rem 1.5rem;
+    }
+
+    .first_box {
+        display: var(--display-mobile-flex);
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: var(--flex-wrap-mobile-nowrap);
+        overflow-y: hidden;
+        overflow-x: var(--overflow-x-mobile-auto);
+        scrollbar-width: var(--scrollbar-width-mobile-none); 
+        padding: 0 1.25rem;
+
+
+        .box {
+            flex: var(--flex-mobile-box);
+            width: var(--width-mobile-box);
+            height: 12rem;
+            border-radius: var(--border-radius-mobile);
+            padding: 5px;
+
+            .box_img {
+                width: var(--width-mobile-100);
+                height: 8.5rem;
+                border-radius: var(--border-radius-mobile);
+                margin-bottom: var(--margin-bottom-mobile-box_img);
+
+                .back_img {
+                    width: var(--width-mobile-100);
+                    height: var(--height-mobile-100);
+                    border-radius: var(--border-radius-mobile);
+                }
+
+            }
+
+
+            .span {
+                font-weight: var(--font-weight-mobile-500);
+                font-size: var(--font-size-mobile-0-8rem);
+            }
+        }
+
+        .box:hover {
+            background-color: var(--background-color-mobile);
+        }
+
+    }
+
+
+    .box_music_first {
+        width: var(--width-mobile-100);
+        height: var(--height-mobile-100);
+
+        .box_music {
+            width: var(--width-mobile-100);
+            height: var(--height-mobile-100);
+            padding: var(--padding-mobile-5px-5px-0);
+
+            iframe {
+                width: 100%;
+                height: 700px;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
