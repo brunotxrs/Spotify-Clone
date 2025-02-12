@@ -26,6 +26,10 @@ body {
     
 }
 
+main {
+    background-color: #202020;
+}
+
 .hidden { 
     display: none;
 }
