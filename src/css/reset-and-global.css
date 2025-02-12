@@ -10,6 +10,37 @@
 
 :root {
     --font-spotify: "Montserrat", serif;
+
+    /* mobile */
+    --flex-mobile-box: 0 0 auto;
+    --width-mobile-box: 9.375rem;
+    --height-mobile-box: 85%;
+    --border-radius-mobile: 0.3125rem;
+    --padding-mobile-box: 0.3125rem 0.3125rem 3rem;
+
+    --width-mobile-100: 100%;
+    --height-mobile-100: 100%;
+    --margin-bottom-mobile-box_img: 0.3125rem;
+
+    --font-weight-mobile-500: 500;
+    --font-size-mobile-0-8rem: .8em;
+
+    --height-mobile-260: 16.25rem;
+    --padding-mobile-20: 1.25rem 1.25rem 0 1.25rem ;
+    --overflow-mobile-hidden: hidden;
+
+    --font-weight-mobile-600: 600;
+    --font-size-mobile-1-2rem: 1.2em;
+    --padding-bottom-mobile-20: 1.25rem;
+    --background-color-mobile: #383535;
+
+    --display-mobile-flex: flex;
+    --flex-wrap-mobile-nowrap: nowrap;
+    --overflow-x-mobile-auto: auto;
+    --scrollbar-width-mobile-none: none;
+
+    --padding-mobile-5px-5px-0: 0.3125rem 0.3125rem 0;
+
 }
 
 html {
@@ -17,16 +48,11 @@ html {
 }
 
 body {
-    background-color: #000;
     color: #fff;
     width: 100vw;
     height: 100vh;
 
     font-family: var(--font-spotify);
-    
-}
-
-main {
     background-color: #202020;
 }
 
