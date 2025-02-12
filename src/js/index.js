@@ -103,3 +103,192 @@ play22.addEventListener('click',  () => {
     album2.classList.remove('hidden');
   
 })
+
+const play23 = document.getElementById('play-23');
+const album3 = document.getElementById('album-3')
+play23.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album3.classList.remove('hidden');
+  
+})
+
+const play24 = document.getElementById('play-24');
+const album4 = document.getElementById('album-4')
+play24.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album4.classList.remove('hidden');
+  
+})
+
+const play25 = document.getElementById('play-25');
+const album5 = document.getElementById('album-5')
+play25.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album5.classList.remove('hidden');
+  
+})
+
+const play26 = document.getElementById('play-26');
+const album6 = document.getElementById('album-6')
+play26.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album6.classList.remove('hidden');
+  
+})
+
+const play27 = document.getElementById('play-27');
+const album7 = document.getElementById('album-7')
+play27.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album7.classList.remove('hidden');
+  
+})
+
+const play28 = document.getElementById('play-28');
+const album8 = document.getElementById('album-8')
+play28.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album8.classList.remove('hidden');
+  
+})
+
+const play29 = document.getElementById('play-29');
+const album9 = document.getElementById('album-9')
+play29.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album9.classList.remove('hidden');
+  
+})
+
+const play30 = document.getElementById('play-30');
+const album10 = document.getElementById('album-10')
+play30.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album10.classList.remove('hidden');
+  
+})
+
+const play31 = document.getElementById('play-31');
+const album11 = document.getElementById('album-11')
+play31.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album11.classList.remove('hidden');
+  
+})
+
+const play32 = document.getElementById('play-32');
+const album12 = document.getElementById('album-12')
+play32.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album12.classList.remove('hidden');
+  
+})
+
+const play33 = document.getElementById('play-33');
+const album13 = document.getElementById('album-13')
+play33.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album13.classList.remove('hidden');
+  
+})
+
+const play34 = document.getElementById('play-34');
+const album14 = document.getElementById('album-14')
+play34.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album14.classList.remove('hidden');
+  
+})
+
+const play35 = document.getElementById('play-35');
+const album15 = document.getElementById('album-15')
+play35.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album15.classList.remove('hidden');
+  
+})
+
+const play36 = document.getElementById('play-36');
+const album16 = document.getElementById('album-16')
+play36.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album16.classList.remove('hidden');
+  
+})
+
+const play37 = document.getElementById('play-37');
+const album17 = document.getElementById('album-17')
+play37.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album17.classList.remove('hidden');
+  
+})
+
+const play38 = document.getElementById('play-38');
+const album18 = document.getElementById('album-18')
+play38.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album18.classList.remove('hidden');
+  
+})
+
+const play39 = document.getElementById('play-39');
+const album19 = document.getElementById('album-19')
+play39.addEventListener('click',  () => {
+    artistBox.classList.add('hidden');
+    artistMusicBox.classList.add('hidden');
+    single.classList.add('hidden');
+    musicAlbuns.classList.remove('hidden');
+    album19.classList.remove('hidden');
+  
+})
+
+// ---------------------------------------
