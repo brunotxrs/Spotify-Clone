@@ -1,0 +1,176 @@
+.section-2 {
+    width: 100%;
+    height: 17rem;
+
+    .h2 {
+        font-weight: var(--font-weight-mobile-600);
+        font-size: var(--font-size-mobile-1-2rem);
+        padding: 1rem 4rem 1rem 1.5rem;
+    }
+
+    .first_box {
+        display: var(--display-mobile-flex);
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: var(--flex-wrap-mobile-nowrap);
+        overflow-y: hidden;
+        overflow-x: var(--overflow-x-mobile-auto);
+        scrollbar-width: var(--scrollbar-width-mobile-none); 
+        padding: 0 1.25rem;
+
+
+        .box {
+            flex: var(--flex-mobile-box);
+            width: var(--width-mobile-box);
+            height: 12rem;
+            border-radius: var(--border-radius-mobile);
+            padding: 5px;
+
+            .box_img {
+                width: var(--width-mobile-100);
+                height: 8.5rem;
+                border-radius: var(--border-radius-mobile);
+                margin-bottom: var(--margin-bottom-mobile-box_img);
+
+                .back_img {
+                    width: var(--width-mobile-100);
+                    height: var(--height-mobile-100);
+                    border-radius: var(--border-radius-mobile);
+                }
+
+            }
+
+
+            .span {
+                font-weight: var(--font-weight-mobile-500);
+                font-size: var(--font-size-mobile-0-8rem);
+            }
+        }
+
+        .box:hover {
+            background-color: var(--background-color-mobile);
+        }
+
+    }
+
+
+    
+}
+
+.section-clip-2 {
+    width: 100%;
+    height: 100%;
+
+    .box_music_first {
+        width: var(--width-mobile-100);
+        height: var(--height-mobile-100);
+
+        .box_music {
+            width: var(--width-mobile-100);
+            height: var(--height-mobile-100);
+            padding: var(--padding-mobile-5px-5px-0);
+
+            iframe {
+                width: 100%;
+                height: 700px;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+.bg_albuns-1 {
+    background: url(../img/mobile/s-1.png) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-2 {
+    background: url(../img/mobile/s-2.png) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-3 {
+    background: url(../img/mobile/s-3.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-4 {
+    background: url(../img/mobile/s-4.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-5 {
+    background: url(../img/mobile/s-5.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-6 {
+    background: url(../img/mobile/s-6.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-7 {
+    background: url(../img/mobile/s-7.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-8 {
+    background: url(../img/mobile/s-8.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-9 {
+    background: url(../img/mobile/s-9.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-10 {
+    background: url(../img/mobile/s-10.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-11 {
+    background: url(../img/mobile/s-11.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-12 {
+    background: url(../img/mobile/s-12.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-13 {
+    background: url(../img/mobile/s-13.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-14 {
+    background: url(../img/mobile/s-14.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-15 {
+    background: url(../img/mobile/s-15.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-16 {
+    background: url(../img/mobile/s-16.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-17 {
+    background: url(../img/mobile/s-17.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-18 {
+    background: url(../img/mobile/s-18.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_albuns-19 {
+    background: url(../img/mobile/s-19.jpeg) no-repeat center;
+    background-size: cover;
+}
