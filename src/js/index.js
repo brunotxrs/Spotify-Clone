@@ -13,6 +13,7 @@ const section3 = document.getElementById('section-3');
 const headerNav = document.getElementById('header_nav');
 const sectionClip1 = document.getElementById('section-clip-1');
 const sectionClip2 = document.getElementById('section-clip-2');
+const sectionClip3 = document.getElementById('section-clip-3');
 
 // -------------função do Nav-----------------
 function visivelNav(show) {
@@ -498,14 +499,15 @@ function sectionFirst(){
         }) 
     
     }
-}
+
+};
 
 sectionFirst();
 
 // ----------------------------------------
 
 //-------Section Second---------------------
-function sectionSecond(){
+(function sectionSecond(){
 
     const boxAlbunsArray = [
         document.getElementById('box_albuns-1'),
@@ -903,8 +905,469 @@ function sectionSecond(){
     
     })
     }
-}
+})();
+// --------------------------------
 
-sectionSecond();
 
-// ----------------------------
+//------------ Section three-------
+(function sectionThree(){
+
+    const radioArray = [
+        document.getElementById('radio-1'),
+        document.getElementById('radio-2'),
+        document.getElementById('radio-3'),
+        document.getElementById('radio-4'),
+        document.getElementById('radio-5'),
+        document.getElementById('radio-6'),
+        document.getElementById('radio-7'),
+        document.getElementById('radio-8'),
+        document.getElementById('radio-9'),
+        document.getElementById('radio-10'),
+        document.getElementById('radio-11'),
+        document.getElementById('radio-12'),
+        document.getElementById('radio-13'),
+        document.getElementById('radio-14'),
+        document.getElementById('radio-15'),
+        document.getElementById('radio-16'),
+        document.getElementById('radio-17'),
+        document.getElementById('radio-18'),
+        document.getElementById('radio-19'),
+        document.getElementById('radio-20')
+    ];
+    
+    const boxRadioArray = [
+        document.getElementById('box-radio-1'),
+        document.getElementById('box-radio-2'),
+        document.getElementById('box-radio-3'),
+        document.getElementById('box-radio-4'),
+        document.getElementById('box-radio-5'),
+        document.getElementById('box-radio-6'),
+        document.getElementById('box-radio-7'),
+        document.getElementById('box-radio-8'),
+        document.getElementById('box-radio-9'),
+        document.getElementById('box-radio-10'),
+        document.getElementById('box-radio-11'),
+        document.getElementById('box-radio-12'),
+        document.getElementById('box-radio-13'),
+        document.getElementById('box-radio-14'),
+        document.getElementById('box-radio-15'),
+        document.getElementById('box-radio-16'),
+        document.getElementById('box-radio-17'),
+        document.getElementById('box-radio-18'),
+        document.getElementById('box-radio-19'),
+        document.getElementById('box-radio-20')
+    ];
+    
+    function radio() {
+        section1.classList.add('hidden');
+        section2.classList.add('hidden');
+        section3.classList.add('hidden');
+        sectionClip1.classList.add('hidden');
+    
+        sectionClip3.classList.remove('hidden');
+    }
+
+    if(radioArray[0]){
+
+        radioArray[0].addEventListener('click', () => {
+            radio();
+            boxRadioArray[0].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[0].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[1]){
+
+        radioArray[1].addEventListener('click', () => {
+            radio();
+            boxRadioArray[1].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[1].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[2]){
+
+        radioArray[2].addEventListener('click', () => {
+            radio();
+            boxRadioArray[2].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[2].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[3]){
+
+        radioArray[3].addEventListener('click', () => {
+            radio();
+            boxRadioArray[3].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[3].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[4]){
+
+        radioArray[4].addEventListener('click', () => {
+            radio();
+            boxRadioArray[4].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[4].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[5]){
+
+        radioArray[5].addEventListener('click', () => {
+            radio();
+            boxRadioArray[5].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[5].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[6]){
+
+        radioArray[6].addEventListener('click', () => {
+            radio();
+            boxRadioArray[6].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[6].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[7]){
+
+        radioArray[7].addEventListener('click', () => {
+            radio();
+            boxRadioArray[7].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[7].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[8]){
+
+        radioArray[8].addEventListener('click', () => {
+            radio();
+            boxRadioArray[8].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[8].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[9]){
+
+        radioArray[9].addEventListener('click', () => {
+            radio();
+            boxRadioArray[9].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[9].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[10]){
+
+        radioArray[10].addEventListener('click', () => {
+            radio();
+            boxRadioArray[10].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[10].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[11]){
+
+        radioArray[11].addEventListener('click', () => {
+            radio();
+            boxRadioArray[11].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[11].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[12]){
+
+        radioArray[12].addEventListener('click', () => {
+            radio();
+            boxRadioArray[12].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[12].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[13]){
+
+        radioArray[13].addEventListener('click', () => {
+            radio();
+            boxRadioArray[13].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[13].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[14]){
+
+        radioArray[14].addEventListener('click', () => {
+            radio();
+            boxRadioArray[14].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[14].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[15]){
+
+        radioArray[15].addEventListener('click', () => {
+            radio();
+            boxRadioArray[15].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[15].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[16]){
+
+        radioArray[16].addEventListener('click', () => {
+            radio();
+            boxRadioArray[16].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[16].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[17]){
+
+        radioArray[17].addEventListener('click', () => {
+            radio();
+            boxRadioArray[17].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[17].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[18]){
+
+        radioArray[18].addEventListener('click', () => {
+            radio();
+            boxRadioArray[18].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[18].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    } if(radioArray[19]){
+
+        radioArray[19].addEventListener('click', () => {
+            radio();
+            boxRadioArray[19].classList.remove('hidden');
+        
+            function rad(visivel){
+                if(visivel){
+                    sectionClip3.classList.add('hidden');           
+                }else {
+                   radio()
+                   boxRadioArray[19].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => rad(true));
+           xmarkSolid.addEventListener('click', () => rad(false));
+        
+        })
+
+    };
+    
+})();
+
