@@ -558,6 +558,7 @@ sectionFirst();
         section1.classList.add('hidden');
         section2.classList.add('hidden');
         section3.classList.add('hidden');
+        section4.classList.add('hidden');
         sectionClip1.classList.add('hidden');
         sectionClip2.classList.remove('hidden');
     }
@@ -964,6 +965,7 @@ sectionFirst();
         section1.classList.add('hidden');
         section2.classList.add('hidden');
         section3.classList.add('hidden');
+        section4.classList.add('hidden');
         sectionClip1.classList.add('hidden');
     
         sectionClip3.classList.remove('hidden');
