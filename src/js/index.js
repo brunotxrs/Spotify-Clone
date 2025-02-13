@@ -10,10 +10,12 @@ const premium = document.getElementById('premium');
 const section1 = document.getElementById('section-1');
 const section2 = document.getElementById('section-2');
 const section3 = document.getElementById('section-3');
+const section4 = document.getElementById('section-4');
 const headerNav = document.getElementById('header_nav');
 const sectionClip1 = document.getElementById('section-clip-1');
 const sectionClip2 = document.getElementById('section-clip-2');
 const sectionClip3 = document.getElementById('section-clip-3');
+const sectionClip4 = document.getElementById('section-clip-4');
 
 // -------------função do Nav-----------------
 function visivelNav(show) {
@@ -1370,4 +1372,157 @@ sectionFirst();
     };
     
 })();
+// --------------------------------
 
+// -----------Section Four---------
+
+(function sectionFour(){
+
+    const destaqueArray = [
+        document.getElementById('destaque-1'),
+        document.getElementById('destaque-2'),
+        document.getElementById('destaque-3'),
+        document.getElementById('destaque-4'),
+        document.getElementById('destaque-5'),
+        document.getElementById('destaque-6')
+    ];
+    
+    const boxDestaqueArray = [
+        document.getElementById('box-destaque-1'),
+        document.getElementById('box-destaque-2'),
+        document.getElementById('box-destaque-3'),
+        document.getElementById('box-destaque-4'),
+        document.getElementById('box-destaque-5'),
+        document.getElementById('box-destaque-6')
+    ];
+    
+    function destaque() {
+        section1.classList.add('hidden');
+        section2.classList.add('hidden');
+        section3.classList.add('hidden');
+        section4.classList.add('hidden');
+        sectionClip1.classList.add('hidden');
+    
+        sectionClip4.classList.remove('hidden');
+    }
+    
+    
+    if(destaqueArray[0]){
+        destaqueArray[0].addEventListener('click', () => {
+            destaque()
+            boxDestaqueArray[0].classList.remove('hidden');
+    
+            function dest(visivel){
+                if(visivel){
+                    sectionClip4.classList.add('hidden');           
+                }else {
+                    destaque()
+                    boxDestaqueArray[0].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => dest(true));
+           xmarkSolid.addEventListener('click', () => dest(false));
+    
+        });
+    
+    } if(destaqueArray[1]){
+        destaqueArray[1].addEventListener('click', () => {
+            destaque()
+            boxDestaqueArray[1].classList.remove('hidden');
+    
+            function dest(visivel){
+                if(visivel){
+                    sectionClip4.classList.add('hidden');           
+                }else {
+                    destaque()
+                    boxDestaqueArray[1].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => dest(true));
+           xmarkSolid.addEventListener('click', () => dest(false));
+    
+        });
+    
+    } if(destaqueArray[2]){
+        destaqueArray[2].addEventListener('click', () => {
+            destaque()
+            boxDestaqueArray[2].classList.remove('hidden');
+    
+            function dest(visivel){
+                if(visivel){
+                    sectionClip4.classList.add('hidden');           
+                }else {
+                    destaque()
+                    boxDestaqueArray[2].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => dest(true));
+           xmarkSolid.addEventListener('click', () => dest(false));
+    
+        });
+    
+    } if(destaqueArray[3]){
+        destaqueArray[3].addEventListener('click', () => {
+            destaque()
+            boxDestaqueArray[3].classList.remove('hidden');
+    
+            function dest(visivel){
+                if(visivel){
+                    sectionClip4.classList.add('hidden');           
+                }else {
+                    destaque()
+                    boxDestaqueArray[3].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => dest(true));
+           xmarkSolid.addEventListener('click', () => dest(false));
+    
+        });
+    
+    } if(destaqueArray[4]){
+        destaqueArray[4].addEventListener('click', () => {
+            destaque()
+            boxDestaqueArray[4].classList.remove('hidden');
+    
+            function dest(visivel){
+                if(visivel){
+                    sectionClip4.classList.add('hidden');           
+                }else {
+                    destaque()
+                    boxDestaqueArray[4].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => dest(true));
+           xmarkSolid.addEventListener('click', () => dest(false));
+    
+        });
+    
+    } if(destaqueArray[5]){
+        destaqueArray[5].addEventListener('click', () => {
+            destaque()
+            boxDestaqueArray[5].classList.remove('hidden');
+    
+            function dest(visivel){
+                if(visivel){
+                    sectionClip4.classList.add('hidden');           
+                }else {
+                    destaque()
+                    boxDestaqueArray[5].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => dest(true));
+           xmarkSolid.addEventListener('click', () => dest(false));
+    
+        });
+    
+    }; 
+
+})();
+
+// --------------------------------
