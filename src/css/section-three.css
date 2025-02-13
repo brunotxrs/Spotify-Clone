@@ -55,21 +55,144 @@
     }
 
 
-    .box_music_first {
+    
+}
+
+.box_music_first {
+    width: var(--width-mobile-100);
+    height: var(--height-mobile-100);
+
+    .box_music {
         width: var(--width-mobile-100);
         height: var(--height-mobile-100);
+        padding: var(--padding-mobile-5px-5px-0);
 
-        .box_music {
-            width: var(--width-mobile-100);
-            height: var(--height-mobile-100);
-            padding: var(--padding-mobile-5px-5px-0);
-
-            iframe {
-                width: 100%;
-                height: 700px;
-                border: none;
-                border-radius: 0;
-            }
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+            border-radius: 0;
         }
     }
+}
+
+.bg_radio-1 {
+
+    background: url(../img/mobile/radio-1.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-2 {
+
+    background: url(../img/mobile/radio-2.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-3 {
+
+    background: url(../img/mobile/radio-3.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-4 {
+
+    background: url(../img/mobile/radio-4.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-5 {
+
+    background: url(../img/mobile/radio-5.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-6 {
+
+    background: url(../img/mobile/radio-6.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-7 {
+
+    background: url(../img/mobile/radio-7.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-8 {
+
+    background: url(../img/mobile/radio-8.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-9 {
+
+    background: url(../img/mobile/radio-9.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-10 {
+
+    background: url(../img/mobile/radio-10.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-11 {
+
+    background: url(../img/mobile/radio-11.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-12 {
+
+    background: url(../img/mobile/radio-12.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-13 {
+
+    background: url(../img/mobile/radio-13.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-14 {
+
+    background: url(../img/mobile/radio-14.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-15 {
+
+    background: url(../img/mobile/radio-15.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-16 {
+
+    background: url(../img/mobile/radio-16.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-17 {
+
+    background: url(../img/mobile/radio-17.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-18 {
+
+    background: url(../img/mobile/radio-18.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_radio-19 {
+
+    background: url(../img/mobile/radio-19.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+
+.bg_radio-20 {
+
+    background: url(../img/mobile/radio-20.jpeg) no-repeat center;
+    background-size: cover;
 }
