@@ -45,6 +45,7 @@
 
 html {
     scrollbar-width: none;
+    background-color:#121212;
 }
 
 body {
@@ -53,7 +54,7 @@ body {
     height: 100vh;
 
     font-family: var(--font-spotify);
-    background-color: #202020;
+    background-color:#121212;
 }
 
 .hidden { 
