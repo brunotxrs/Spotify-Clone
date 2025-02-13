@@ -7,10 +7,13 @@ const search1 = document.getElementById('search-1');
 const button = document.getElementById('button');
 const button1 = document.getElementById('button-1');
 const premium = document.getElementById('premium');
-const section1 = document.getElementById('section-1');
-const section2 = document.getElementById('section-2');
-const section3 = document.getElementById('section-3');
-const section4 = document.getElementById('section-4');
+const section = [
+    document.getElementById('section-1'),
+    document.getElementById('section-2'),
+    document.getElementById('section-3'),
+    document.getElementById('section-4')
+
+];
 const headerNav = document.getElementById('header_nav');
 const sectionClip1 = document.getElementById('section-clip-1');
 const sectionClip2 = document.getElementById('section-clip-2');
@@ -31,9 +34,10 @@ function visivelNav(show) {
         button1.classList.add('curso-auto');
         barsSolid.classList.add('hidden');
         premium.style.display = 'none';
-        section1.classList.add('hidden');
-        section2.classList.add('hidden');
-        section3.classList.add('hidden');
+        section.forEach((elemento) => {
+            elemento.classList.add('hidden');
+        })
+
         return;
     } else {
         headerNav.classList.add('hidden');
@@ -46,9 +50,9 @@ function visivelNav(show) {
         button1.classList.remove('curso-auto');
         barsSolid.classList.remove('hidden');
         premium.style.display = '';
-        section1.classList.remove('hidden');
-        section2.classList.remove('hidden');
-        section3.classList.remove('hidden');
+        section.forEach((elemento) => {
+            elemento.classList.remove('hidden');
+        })
         
     }
     
@@ -116,7 +120,7 @@ function sectionFirst(){
     ]
     
     function artist(){
-        section1.classList.add('hidden');
+        section[0].classList.add('hidden');
         sectionClip1.classList.remove('hidden');
     }
     
@@ -505,7 +509,6 @@ function sectionFirst(){
 };
 
 sectionFirst();
-
 // ----------------------------------------
 
 //-------Section Second---------------------
@@ -555,10 +558,9 @@ sectionFirst();
     ]
     
     function album(){
-        section1.classList.add('hidden');
-        section2.classList.add('hidden');
-        section3.classList.add('hidden');
-        section4.classList.add('hidden');
+        section.forEach((elemento) => {
+            elemento.classList.add('hidden');
+        })
         sectionClip1.classList.add('hidden');
         sectionClip2.classList.remove('hidden');
     }
@@ -962,10 +964,9 @@ sectionFirst();
     ];
     
     function radio() {
-        section1.classList.add('hidden');
-        section2.classList.add('hidden');
-        section3.classList.add('hidden');
-        section4.classList.add('hidden');
+        section.forEach((elemento) => {
+            elemento.classList.add('hidden');
+        })
         sectionClip1.classList.add('hidden');
     
         sectionClip3.classList.remove('hidden');
@@ -1399,10 +1400,10 @@ sectionFirst();
     ];
     
     function destaque() {
-        section1.classList.add('hidden');
-        section2.classList.add('hidden');
-        section3.classList.add('hidden');
-        section4.classList.add('hidden');
+        section.forEach((elemento) => {
+            elemento.classList.add('hidden');
+        });
+        
         sectionClip1.classList.add('hidden');
     
         sectionClip4.classList.remove('hidden');
