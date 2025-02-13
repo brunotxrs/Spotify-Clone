@@ -58,20 +58,25 @@
     
 }
 
-.box_music_first {
-    width: var(--width-mobile-100);
-    height: var(--height-mobile-100);
+.section-clip-3 {
+    width: 100%;
+    height: 100%;
 
-    .box_music {
+    .box_music_first {
         width: var(--width-mobile-100);
         height: var(--height-mobile-100);
-        padding: var(--padding-mobile-5px-5px-0);
 
-        iframe {
-            width: 100%;
-            height: 700px;
-            border: none;
-            border-radius: 0;
+        .box_music {
+            width: var(--width-mobile-100);
+            height: var(--height-mobile-100);
+            padding: var(--padding-mobile-5px-5px-0);
+
+            iframe {
+                width: 100%;
+                height: 700px;
+                border: none;
+                border-radius: 0;
+            }
         }
     }
 }
