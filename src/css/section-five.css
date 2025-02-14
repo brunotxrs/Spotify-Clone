@@ -1,0 +1,182 @@
+.section-5 {
+    width: 100%;
+    height: 17rem;
+
+    .h2 {
+        font-weight: var(--font-weight-mobile-600);
+        font-size: var(--font-size-mobile-1-2rem);
+        padding: 1rem 4rem 0.5rem 1rem;
+
+    }
+
+    .first_box {
+        display: var(--display-mobile-flex);
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: var(--flex-wrap-mobile-nowrap);
+        overflow-y: hidden;
+        overflow-x: var(--overflow-x-mobile-auto);
+        scrollbar-width: var(--scrollbar-width-mobile-none);
+        height: 12.3rem; 
+        padding: 0 0.5rem;
+        
+        .box {
+            flex: var(--flex-mobile-box);
+            width: var(--width-mobile-box);
+            height: 12.3rem;
+            border-radius: var(--border-radius-mobile);
+            padding: 0.3125rem ;
+
+            .box_img {
+                width: var(--width-mobile-100);
+                height: 9.2rem;
+                border-radius: var(--border-radius-mobile);
+                margin-bottom: var(--margin-bottom-mobile-box_img);
+
+                .back_img {
+                    width: var(--width-mobile-100);
+                    height: var(--height-mobile-100);
+                    border-radius: var(--border-radius-mobile);
+                }
+
+            }
+
+
+            .span {
+                font-weight: var(--font-weight-mobile-500);
+                font-size: var(--font-size-mobile-0-8rem);
+            }
+        }
+
+        .box:hover {
+            background-color: var(--background-color-mobile);
+        }
+
+    }
+
+
+    
+}
+
+.section-clip-5 {
+    width: 100%;
+    height: 100%;
+
+    .box_music_first {
+        width: var(--width-mobile-100);
+        height: var(--height-mobile-100);
+
+        .box_music {
+            width: var(--width-mobile-100);
+            height: var(--height-mobile-100);
+            padding: var(--padding-mobile-5px-5px-0);
+
+            iframe {
+                width: 100%;
+                height: 700px;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+.bg_acompanhar-1 {
+    background: url(../img/mobile/acompanhar-1.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-2 {
+    background: url(../img/mobile/acompanhar-2.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-3 {
+    background: url(../img/mobile/acompanhar-3.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-4 {
+    background: url(../img/mobile/acompanhar-4.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-5 {
+    background: url(../img/mobile/acompanhar-5.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-6 {
+    background: url(../img/mobile/acompanhar-6.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-7 {
+    background: url(../img/mobile/acompanhar-7.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-8 {
+    background: url(../img/mobile/acompanhar-8.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-9 {
+    background: url(../img/mobile/acompanhar-9.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-10 {
+    background: url(../img/mobile/acompanhar-10.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-11 {
+    background: url(../img/mobile/acompanhar-11.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-12 {
+    background: url(../img/mobile/acompanhar-12.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-13 {
+    background: url(../img/mobile/acompanhar-13.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-14 {
+    background: url(../img/mobile/acompanhar-14.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-15 {
+    background: url(../img/mobile/acompanhar-15.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-16 {
+    background: url(../img/mobile/acompanhar-16.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-17 {
+    background: url(../img/mobile/acompanhar-17.png) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-18 {
+    background: url(../img/mobile/acompanhar-18.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-19 {
+    background: url(../img/mobile/acompanhar-19.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.bg_acompanhar-20 {
+    background: url(../img/mobile/acompanhar-20.jpeg) no-repeat center;
+    background-size: cover;
+}
