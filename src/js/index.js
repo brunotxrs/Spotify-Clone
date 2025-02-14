@@ -15,12 +15,16 @@ const section = [
     document.getElementById('section-5')
 
 ];
-const headerNav = document.getElementById('header_nav');
-const sectionClip1 = document.getElementById('section-clip-1');
-const sectionClip2 = document.getElementById('section-clip-2');
-const sectionClip3 = document.getElementById('section-clip-3');
-const sectionClip4 = document.getElementById('section-clip-4');
+const sectionClip = [
+    document.getElementById('section-clip-1'),
+    document.getElementById('section-clip-2'),
+    document.getElementById('section-clip-3'),
+    document.getElementById('section-clip-4'),
+    document.getElementById('section-clip-5')
+];
 
+const headerNav = document.getElementById('header_nav');
+const spanButton = document.getElementById('span');
 // -------------função do Nav-----------------
 function visivelNav(show) {
 
@@ -32,6 +36,7 @@ function visivelNav(show) {
         search.style.opacity = '0';
         search1.classList.add('curso-auto');
         button.style.opacity = '0';
+        spanButton.classList.add('hidden');
         button1.classList.add('curso-auto');
         barsSolid.classList.add('hidden');
         premium.style.display = 'none';
@@ -48,6 +53,7 @@ function visivelNav(show) {
         search.style.opacity = '1';
         search1.classList.remove('curso-auto');
         button.style.opacity = '1';
+        spanButton.classList.remove('hidden');
         button1.classList.remove('curso-auto');
         barsSolid.classList.remove('hidden');
         premium.style.display = '';
@@ -120,11 +126,15 @@ function sectionFirst(){
     
     ]
     
-    function artist(){
+    function artist() {
         section[0].classList.add('hidden');
-        sectionClip1.classList.remove('hidden');
+        sectionClip[0].classList.remove('hidden');
     }
-    
+
+    function addHidden() {
+        sectionClip[0].classList.add('hidden');
+    }
+
     if(artArray[0]){
         artArray[0].addEventListener('click', () => {
             artist();
@@ -132,7 +142,7 @@ function sectionFirst(){
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[0].classList.remove('hidden');
@@ -144,14 +154,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[1]){
+    } if(artArray[1]){
         artArray[1].addEventListener('click', () => {
             artist();
             artMusicArray[1].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[1].classList.remove('hidden');
@@ -163,14 +173,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[2]){
+    } if(artArray[2]){
         artArray[2].addEventListener('click', () => {
             artist();
             artMusicArray[2].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[2].classList.remove('hidden');
@@ -182,14 +192,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[3]){
+    } if(artArray[3]){
         artArray[3].addEventListener('click', () => {
             artist();
             artMusicArray[3].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[3].classList.remove('hidden');
@@ -201,14 +211,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[4]){
+    } if(artArray[4]){
         artArray[4].addEventListener('click', () => {
             artist();
             artMusicArray[4].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[4].classList.remove('hidden');
@@ -220,14 +230,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[5]){
+    } if(artArray[5]){
         artArray[5].addEventListener('click', () => {
             artist();
             artMusicArray[5].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[5].classList.remove('hidden');
@@ -239,14 +249,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[6]){
+    } if(artArray[6]){
         artArray[6].addEventListener('click', () => {
             artist();
             artMusicArray[6].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[6].classList.remove('hidden');
@@ -258,14 +268,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[7]){
+    } if(artArray[7]){
         artArray[7].addEventListener('click', () => {
             artist();
             artMusicArray[7].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[7].classList.remove('hidden');
@@ -277,14 +287,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[8]){
+    } if(artArray[8]){
         artArray[8].addEventListener('click', () => {
             artist();
             artMusicArray[8].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[8].classList.remove('hidden');
@@ -296,14 +306,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[9]){
+    } if(artArray[9]){
         artArray[9].addEventListener('click', () => {
             artist();
             artMusicArray[9].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[9].classList.remove('hidden');
@@ -315,14 +325,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[10]){
+    } if(artArray[10]){
         artArray[10].addEventListener('click', () => {
             artist();
             artMusicArray[10].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[10].classList.remove('hidden');
@@ -334,14 +344,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[11]){
+    } if(artArray[11]){
         artArray[11].addEventListener('click', () => {
             artist();
             artMusicArray[11].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[11].classList.remove('hidden');
@@ -353,14 +363,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[12]){
+    } if(artArray[12]){
         artArray[12].addEventListener('click', () => {
             artist();
             artMusicArray[12].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[12].classList.remove('hidden');
@@ -372,14 +382,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[13]){
+    } if(artArray[13]){
         artArray[13].addEventListener('click', () => {
             artist();
             artMusicArray[13].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[13].classList.remove('hidden');
@@ -391,14 +401,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[14]){
+    } if(artArray[14]){
         artArray[14].addEventListener('click', () => {
             artist();
             artMusicArray[14].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[14].classList.remove('hidden');
@@ -410,14 +420,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[15]){
+    } if(artArray[15]){
         artArray[15].addEventListener('click', () => {
             artist();
             artMusicArray[15].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[15].classList.remove('hidden');
@@ -429,14 +439,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[16]){
+    } if(artArray[16]){
         artArray[16].addEventListener('click', () => {
             artist();
             artMusicArray[16].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[16].classList.remove('hidden');
@@ -448,14 +458,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[17]){
+    } if(artArray[17]){
         artArray[17].addEventListener('click', () => {
             artist();
             artMusicArray[17].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[17].classList.remove('hidden');
@@ -467,14 +477,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[18]){
+    } if(artArray[18]){
         artArray[18].addEventListener('click', () => {
             artist();
             artMusicArray[18].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[18].classList.remove('hidden');
@@ -486,14 +496,14 @@ function sectionFirst(){
         
         }) 
     
-    }if(artArray[19]){
+    } if(artArray[19]){
         artArray[19].addEventListener('click', () => {
             artist();
             artMusicArray[19].classList.remove('hidden');
         
             function click(visivel) {
                 if(visivel) {
-                    sectionClip1.classList.add('hidden');
+                    addHidden()
                 } else {
                     artist();
                     artMusicArray[19].classList.remove('hidden');
@@ -562,8 +572,13 @@ sectionFirst();
         section.forEach((elemento) => {
             elemento.classList.add('hidden');
         })
-        sectionClip1.classList.add('hidden');
-        sectionClip2.classList.remove('hidden');
+        
+        sectionClip[0].classList.add('hidden');
+        sectionClip[1].classList.remove('hidden');
+    }
+
+    function addHidden(){
+        sectionClip[1].classList.add('hidden'); 
     }
     
     if(boxAlbunsArray[0]){
@@ -573,10 +588,11 @@ sectionFirst();
         
              function albuns(visivel){
                  if(visivel){
-                     sectionClip2.classList.add('hidden');           
+                     addHidden()         
                  }else {
-                    album()
+                    album();
                      musicAlbunsArray[0].classList.remove('hidden');
+                    
                  }
             }
         
@@ -591,7 +607,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[1].classList.remove('hidden');
@@ -610,7 +626,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[2].classList.remove('hidden');
@@ -629,7 +645,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[3].classList.remove('hidden');
@@ -647,7 +663,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[4].classList.remove('hidden');
@@ -665,7 +681,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[5].classList.remove('hidden');
@@ -683,7 +699,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[6].classList.remove('hidden');
@@ -701,7 +717,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[7].classList.remove('hidden');
@@ -719,7 +735,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[8].classList.remove('hidden');
@@ -737,7 +753,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[9].classList.remove('hidden');
@@ -755,7 +771,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[10].classList.remove('hidden');
@@ -773,7 +789,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[11].classList.remove('hidden');
@@ -791,7 +807,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()         
              }else {
                  album();
                  musicAlbunsArray[12].classList.remove('hidden');
@@ -809,7 +825,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[13].classList.remove('hidden');
@@ -827,7 +843,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[14].classList.remove('hidden');
@@ -845,7 +861,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[15].classList.remove('hidden');
@@ -863,7 +879,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[16].classList.remove('hidden');
@@ -881,7 +897,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()           
              }else {
                  album();
                  musicAlbunsArray[17].classList.remove('hidden');
@@ -899,7 +915,7 @@ sectionFirst();
     
          function albuns(visivel){
              if(visivel){
-                 sectionClip2.classList.add('hidden');           
+                 addHidden()          
              }else {
                  album();
                  musicAlbunsArray[18].classList.remove('hidden');
@@ -911,6 +927,7 @@ sectionFirst();
     
     })
     }
+
 })();
 // --------------------------------
 
@@ -968,10 +985,14 @@ sectionFirst();
         section.forEach((elemento) => {
             elemento.classList.add('hidden');
         })
-        sectionClip1.classList.add('hidden');
+        sectionClip[0].classList.add('hidden');
     
-        sectionClip3.classList.remove('hidden');
+        sectionClip[2].classList.remove('hidden');
     }
+    function addHidden() {
+        sectionClip[2].classList.add('hidden'); 
+    }
+     
 
     if(radioArray[0]){
 
@@ -981,7 +1002,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[0].classList.remove('hidden');
@@ -1001,7 +1022,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()           
                 }else {
                    radio()
                    boxRadioArray[1].classList.remove('hidden');
@@ -1021,7 +1042,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()           
                 }else {
                    radio()
                    boxRadioArray[2].classList.remove('hidden');
@@ -1041,7 +1062,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[3].classList.remove('hidden');
@@ -1061,7 +1082,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()           
                 }else {
                    radio()
                    boxRadioArray[4].classList.remove('hidden');
@@ -1081,7 +1102,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[5].classList.remove('hidden');
@@ -1101,7 +1122,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()           
                 }else {
                    radio()
                    boxRadioArray[6].classList.remove('hidden');
@@ -1121,7 +1142,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()        
                 }else {
                    radio()
                    boxRadioArray[7].classList.remove('hidden');
@@ -1141,7 +1162,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[8].classList.remove('hidden');
@@ -1161,7 +1182,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[9].classList.remove('hidden');
@@ -1181,7 +1202,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[10].classList.remove('hidden');
@@ -1201,7 +1222,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[11].classList.remove('hidden');
@@ -1221,7 +1242,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[12].classList.remove('hidden');
@@ -1241,7 +1262,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[13].classList.remove('hidden');
@@ -1261,7 +1282,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[14].classList.remove('hidden');
@@ -1281,7 +1302,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[15].classList.remove('hidden');
@@ -1301,7 +1322,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[16].classList.remove('hidden');
@@ -1321,7 +1342,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[17].classList.remove('hidden');
@@ -1341,7 +1362,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[18].classList.remove('hidden');
@@ -1361,7 +1382,7 @@ sectionFirst();
         
             function rad(visivel){
                 if(visivel){
-                    sectionClip3.classList.add('hidden');           
+                    addHidden()          
                 }else {
                    radio()
                    boxRadioArray[19].classList.remove('hidden');
@@ -1405,11 +1426,14 @@ sectionFirst();
             elemento.classList.add('hidden');
         });
         
-        sectionClip1.classList.add('hidden');
+        sectionClip[0].classList.add('hidden');
     
-        sectionClip4.classList.remove('hidden');
+        sectionClip[3].classList.remove('hidden');
     }
     
+    function addHidden(){
+        sectionClip[3].classList.add('hidden');
+    }
     
     if(destaqueArray[0]){
         destaqueArray[0].addEventListener('click', () => {
@@ -1418,7 +1442,7 @@ sectionFirst();
     
             function dest(visivel){
                 if(visivel){
-                    sectionClip4.classList.add('hidden');           
+                    addHidden();           
                 }else {
                     destaque()
                     boxDestaqueArray[0].classList.remove('hidden');
@@ -1437,7 +1461,7 @@ sectionFirst();
     
             function dest(visivel){
                 if(visivel){
-                    sectionClip4.classList.add('hidden');           
+                    addHidden()           
                 }else {
                     destaque()
                     boxDestaqueArray[1].classList.remove('hidden');
@@ -1456,7 +1480,7 @@ sectionFirst();
     
             function dest(visivel){
                 if(visivel){
-                    sectionClip4.classList.add('hidden');           
+                    addHidden()           
                 }else {
                     destaque()
                     boxDestaqueArray[2].classList.remove('hidden');
@@ -1475,7 +1499,7 @@ sectionFirst();
     
             function dest(visivel){
                 if(visivel){
-                    sectionClip4.classList.add('hidden');           
+                    addHidden()           
                 }else {
                     destaque()
                     boxDestaqueArray[3].classList.remove('hidden');
@@ -1494,7 +1518,7 @@ sectionFirst();
     
             function dest(visivel){
                 if(visivel){
-                    sectionClip4.classList.add('hidden');           
+                    addHidden()           
                 }else {
                     destaque()
                     boxDestaqueArray[4].classList.remove('hidden');
@@ -1513,7 +1537,7 @@ sectionFirst();
     
             function dest(visivel){
                 if(visivel){
-                    sectionClip4.classList.add('hidden');           
+                    addHidden()           
                 }else {
                     destaque()
                     boxDestaqueArray[5].classList.remove('hidden');
@@ -1530,3 +1554,448 @@ sectionFirst();
 })();
 
 // --------------------------------
+
+// -----------Section Five---------
+function time(){
+    const timeHour = new Date();
+    const hour = timeHour.getHours();
+
+    if(hour <= 7 || hour >= 17){
+        section[4].classList.add('hidden')
+        
+    };
+}
+
+(function sectionFive(){
+    time();
+
+    const acompanharArray = [
+        document.getElementById('acompanhar-1'),
+        document.getElementById('acompanhar-2'),
+        document.getElementById('acompanhar-3'),
+        document.getElementById('acompanhar-4'),
+        document.getElementById('acompanhar-5'),
+        document.getElementById('acompanhar-6'),
+        document.getElementById('acompanhar-7'),
+        document.getElementById('acompanhar-8'),
+        document.getElementById('acompanhar-9'),
+        document.getElementById('acompanhar-10'),
+        document.getElementById('acompanhar-11'),
+        document.getElementById('acompanhar-12'),
+        document.getElementById('acompanhar-13'),
+        document.getElementById('acompanhar-14'),
+        document.getElementById('acompanhar-15'),
+        document.getElementById('acompanhar-16'),
+        document.getElementById('acompanhar-17'),
+        document.getElementById('acompanhar-18'),
+        document.getElementById('acompanhar-19'),
+        document.getElementById('acompanhar-20')
+    
+    ]
+    const boxAcompanharArray = [
+        document.getElementById('box-acompanhar-1'),
+        document.getElementById('box-acompanhar-2'),
+        document.getElementById('box-acompanhar-3'),
+        document.getElementById('box-acompanhar-4'),
+        document.getElementById('box-acompanhar-5'),
+        document.getElementById('box-acompanhar-6'),
+        document.getElementById('box-acompanhar-7'),
+        document.getElementById('box-acompanhar-8'),
+        document.getElementById('box-acompanhar-9'),
+        document.getElementById('box-acompanhar-10'),
+        document.getElementById('box-acompanhar-11'),
+        document.getElementById('box-acompanhar-12'),
+        document.getElementById('box-acompanhar-13'),
+        document.getElementById('box-acompanhar-14'),
+        document.getElementById('box-acompanhar-15'),
+        document.getElementById('box-acompanhar-16'),
+        document.getElementById('box-acompanhar-17'),
+        document.getElementById('box-acompanhar-18'),
+        document.getElementById('box-acompanhar-19'),
+        document.getElementById('box-acompanhar-20')
+    
+    ]
+    
+    function acompanhar() {
+        section.forEach((elemento) => {
+            elemento.classList.add('hidden');
+        });
+        
+        sectionClip[0].classList.add('hidden');
+    
+        sectionClip[4].classList.remove('hidden');
+    }
+    
+    function addHidden() {
+        sectionClip[4].classList.add('hidden');
+    }
+    
+    if(acompanharArray[0]) {
+        acompanharArray[0].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[0].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[0].classList.remove('hidden');
+                }
+           }
+  
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[1]) {
+        acompanharArray[1].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[1].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[1].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[2]) {
+        acompanharArray[2].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[2].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[2].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[3]) {
+        acompanharArray[3].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[3].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[3].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[4]) {
+        acompanharArray[4].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[4].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[4].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[5]) {
+        acompanharArray[5].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[5].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[5].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[6]) {
+        acompanharArray[6].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[6].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[6].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[7]) {
+        acompanharArray[7].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[7].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[7].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[8]) {
+        acompanharArray[8].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[8].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[8].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[9]) {
+        acompanharArray[9].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[9].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[9].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[10]) {
+        acompanharArray[10].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[10].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[10].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[11]) {
+        acompanharArray[11].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[11].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[11].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[12]) {
+        acompanharArray[12].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[12].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[12].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[13]) {
+        acompanharArray[13].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[13].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[13].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[14]) {
+        acompanharArray[14].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[14].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[14].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[15]) {
+        acompanharArray[15].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[15].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[15].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[16]) {
+        acompanharArray[16].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[16].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[16].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[17]) {
+        acompanharArray[17].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[17].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[17].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[18]) {
+        acompanharArray[18].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[18].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[18].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    } if(acompanharArray[19]) {
+        acompanharArray[19].addEventListener('click', () => {
+            acompanhar();
+            boxAcompanharArray[19].classList.remove('hidden');
+
+            function acomp(visivel){
+                if(visivel){
+                    addHidden();           
+                }else {
+                    acompanhar();
+                    boxAcompanharArray[19].classList.remove('hidden');
+                }
+           }
+        
+           barsSolid.addEventListener('click', () => acomp(true));
+           xmarkSolid.addEventListener('click', () => acomp(false));
+    
+        })
+    };
+    
+})();
+
+
+
+
+
+
