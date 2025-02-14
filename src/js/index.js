@@ -11,7 +11,8 @@ const section = [
     document.getElementById('section-1'),
     document.getElementById('section-2'),
     document.getElementById('section-3'),
-    document.getElementById('section-4')
+    document.getElementById('section-4'),
+    document.getElementById('section-5')
 
 ];
 const headerNav = document.getElementById('header_nav');
