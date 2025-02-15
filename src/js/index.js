@@ -42,7 +42,10 @@ function visivelNav(show) {
         premium.style.display = 'none';
         section.forEach((elemento) => {
             elemento.classList.add('hidden');
+
         })
+        time();
+
 
         return;
     } else {
@@ -60,6 +63,7 @@ function visivelNav(show) {
         section.forEach((elemento) => {
             elemento.classList.remove('hidden');
         })
+        time();
         
     }
     
@@ -73,59 +77,17 @@ xmarkSolid.addEventListener('click', () => visivelNav(false));
 const fechar = document.getElementById('fechar');
 fechar.addEventListener('click', () => {
     premium.classList.add('hidden');
+    
 })
 
 //------------------------------------------
 
 //--------Section First--------------------
-function sectionFirst(){
 
-    const artArray = [
-        document.getElementById('art-1'),
-        document.getElementById('art-2'),
-        document.getElementById('art-3'),
-        document.getElementById('art-4'),
-        document.getElementById('art-5'),
-        document.getElementById('art-6'),
-        document.getElementById('art-7'),
-        document.getElementById('art-8'),
-        document.getElementById('art-9'),
-        document.getElementById('art-10'),
-        document.getElementById('art-11'),
-        document.getElementById('art-12'),
-        document.getElementById('art-13'),
-        document.getElementById('art-14'),
-        document.getElementById('art-15'),
-        document.getElementById('art-16'),
-        document.getElementById('art-17'),
-        document.getElementById('art-18'),
-        document.getElementById('art-19'),
-        document.getElementById('art-20')
-    ]
-    const artMusicArray = [
-        document.getElementById('artist-1'),
-        document.getElementById('artist-2'),
-        document.getElementById('artist-3'),
-        document.getElementById('artist-4'),
-        document.getElementById('artist-5'),
-        document.getElementById('artist-6'),
-        document.getElementById('artist-7'),
-        document.getElementById('artist-8'),
-        document.getElementById('artist-9'),
-        document.getElementById('artist-10'),
-        document.getElementById('artist-11'),
-        document.getElementById('artist-12'),
-        document.getElementById('artist-13'),
-        document.getElementById('artist-14'),
-        document.getElementById('artist-15'),
-        document.getElementById('artist-16'),
-        document.getElementById('artist-17'),
-        document.getElementById('artist-18'),
-        document.getElementById('artist-19'),
-        document.getElementById('artist-20')
-    
-    ]
-    
+function sectionFirst() {
+    const art = document.querySelectorAll('[id^="art-"]');
+    const artMusic = document.querySelectorAll('[id^="artist-"]');
+
     function artist() {
         section[0].classList.add('hidden');
         sectionClip[0].classList.remove('hidden');
@@ -135,394 +97,465 @@ function sectionFirst(){
         sectionClip[0].classList.add('hidden');
     }
 
-    if(artArray[0]){
-        artArray[0].addEventListener('click', () => {
-            artist();
-            artMusicArray[0].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[0].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[1]){
-        artArray[1].addEventListener('click', () => {
-            artist();
-            artMusicArray[1].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[1].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[2]){
-        artArray[2].addEventListener('click', () => {
-            artist();
-            artMusicArray[2].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[2].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[3]){
-        artArray[3].addEventListener('click', () => {
-            artist();
-            artMusicArray[3].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[3].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[4]){
-        artArray[4].addEventListener('click', () => {
-            artist();
-            artMusicArray[4].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[4].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[5]){
-        artArray[5].addEventListener('click', () => {
-            artist();
-            artMusicArray[5].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[5].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[6]){
-        artArray[6].addEventListener('click', () => {
-            artist();
-            artMusicArray[6].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[6].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[7]){
-        artArray[7].addEventListener('click', () => {
-            artist();
-            artMusicArray[7].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[7].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[8]){
-        artArray[8].addEventListener('click', () => {
-            artist();
-            artMusicArray[8].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[8].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[9]){
-        artArray[9].addEventListener('click', () => {
-            artist();
-            artMusicArray[9].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[9].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[10]){
-        artArray[10].addEventListener('click', () => {
-            artist();
-            artMusicArray[10].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[10].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[11]){
-        artArray[11].addEventListener('click', () => {
-            artist();
-            artMusicArray[11].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[11].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[12]){
-        artArray[12].addEventListener('click', () => {
-            artist();
-            artMusicArray[12].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[12].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[13]){
-        artArray[13].addEventListener('click', () => {
-            artist();
-            artMusicArray[13].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[13].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[14]){
-        artArray[14].addEventListener('click', () => {
-            artist();
-            artMusicArray[14].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[14].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[15]){
-        artArray[15].addEventListener('click', () => {
-            artist();
-            artMusicArray[15].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[15].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[16]){
-        artArray[16].addEventListener('click', () => {
-            artist();
-            artMusicArray[16].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[16].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[17]){
-        artArray[17].addEventListener('click', () => {
-            artist();
-            artMusicArray[17].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[17].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[18]){
-        artArray[18].addEventListener('click', () => {
-            artist();
-            artMusicArray[18].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[18].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
-    } if(artArray[19]){
-        artArray[19].addEventListener('click', () => {
-            artist();
-            artMusicArray[19].classList.remove('hidden');
-        
-            function click(visivel) {
-                if(visivel) {
-                    addHidden()
-                } else {
-                    artist();
-                    artMusicArray[19].classList.remove('hidden');
-                }
-            }
-        
-            barsSolid.addEventListener('click', () => click(true));
-            xmarkSolid.addEventListener('click', () => click(false));
-        
-        }) 
-    
+    function music(index) {
+        artMusic.forEach((element, date) => {
+            element.classList.toggle('hidden', date !== index);
+        });
     }
 
-};
+    art.forEach((num, index) => {
+        num.addEventListener('click', () => {
+            artist();
+            music(index);
+
+            function click(visivel) {
+                visivel ? addHidden() : (artist(), music(index));
+            }
+
+            barsSolid.addEventListener('click', () => click(true));
+            xmarkSolid.addEventListener('click', () => click(false));
+        });
+    });
+}
 
 sectionFirst();
+
+
+// function sectionFirst(){
+
+//     const art = document.querySelectorAll('[id^="art-"]');
+//     const artMusic = document.querySelectorAll('[id^="artist-"]') 
+    
+//     function artist() {
+//         section[0].classList.add('hidden');
+//         sectionClip[0].classList.remove('hidden');
+//     }
+
+//     function addHidden() {
+//         sectionClip[0].classList.add('hidden');
+//     }
+//     art.forEach((num, index) => {
+//         function music(){
+//             artMusic.forEach((element, date) => {
+                
+//                 if(date == 0 && index == 0){
+//                     element.classList.remove('hidden');
+//                 } if(date == 1 && index == 1){
+//                     element.classList.remove('hidden');
+//                 } if(date == 2 && index == 2){
+//                     element.classList.remove('hidden');
+//                 } if(date == 3 && index == 3){
+//                     element.classList.remove('hidden');
+//                 } if(date == 4 && index == 4){
+//                     element.classList.remove('hidden');
+//                 } if(date == 5 && index == 5){
+//                     element.classList.remove('hidden');
+//                 } if(date == 6 && index == 6){
+//                     element.classList.remove('hidden');
+//                 } if(date == 7 && index == 7){
+//                     element.classList.remove('hidden');
+//                 } if(date == 8 && index == 8){
+//                     element.classList.remove('hidden');
+//                 } if(date == 9 && index == 9){
+//                     element.classList.remove('hidden');
+//                 } if(date == 10 && index == 10){
+//                     element.classList.remove('hidden');
+//                 } if(date == 11 && index == 11){
+//                     element.classList.remove('hidden');
+//                 } if(date == 12 && index == 12){
+//                     element.classList.remove('hidden');
+//                 } if(date == 13 && index == 13){
+//                     element.classList.remove('hidden');
+//                 } if(date == 14 && index == 14){
+//                     element.classList.remove('hidden');
+//                 } if(date == 15 && index == 15){
+//                     element.classList.remove('hidden');
+//                 } if(date == 16 && index == 16){
+//                     element.classList.remove('hidden');
+//                 } if(date == 17 && index == 17){
+//                     element.classList.remove('hidden');
+//                 } if(date == 18 && index == 18){
+//                     element.classList.remove('hidden');
+//                 } if(date == 19 && index == 19){
+//                     element.classList.remove('hidden');
+//                 }
+                
+//             })
+//         }
+
+//         if(index == 0){
+//             num.addEventListener('click', () => {
+//             artist();
+//             music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music();
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 1){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 2){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 3){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 4){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 5){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 6){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 7){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 8){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 9){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 10){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 11){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 12){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 13){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 14){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 15){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 16){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 17){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 18){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         } if(index == 19){
+//             num.addEventListener('click', () => {
+//                 artist();
+//                 music()
+        
+//             function click(visivel) {
+//                 if(visivel) {
+//                     addHidden()
+//                 } else {
+//                     artist();
+//                     music()
+//                 }
+//             }
+        
+//             barsSolid.addEventListener('click', () => click(true));
+//             xmarkSolid.addEventListener('click', () => click(false));
+
+//             })
+//         }
+
+//     })
+
+// };
+
+// sectionFirst();
 // ----------------------------------------
 
 //-------Section Second---------------------
+
+
+
 (function sectionSecond(){
 
     const boxAlbunsArray = [
@@ -1993,9 +2026,3 @@ function time(){
     };
     
 })();
-
-
-
-
-
-
