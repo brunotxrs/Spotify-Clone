@@ -95,6 +95,10 @@ body {
     font-size: 1.2em;
 }
 
+#play {
+    display: none;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .desktop-warning {
         display: flex;
