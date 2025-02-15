@@ -25,6 +25,7 @@ const sectionClip = [
 
 const headerNav = document.getElementById('header_nav');
 const spanButton = document.getElementById('span');
+const footer = document.getElementById('footer')
 // -------------função do Nav-----------------
 function visivelNav(show) {
 
@@ -44,6 +45,7 @@ function visivelNav(show) {
             elemento.classList.add('hidden');
 
         })
+        footer.classList.add('hidden');
         time();
 
 
@@ -63,6 +65,7 @@ function visivelNav(show) {
         section.forEach((elemento) => {
             elemento.classList.remove('hidden');
         })
+        footer.classList.remove('hidden');
         time();
         
     }
