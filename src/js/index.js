@@ -76,13 +76,54 @@ barsSolid.addEventListener('click', () => visivelNav(true));
 xmarkSolid.addEventListener('click', () => visivelNav(false));
 
 // ------------------------------------------------------
+const tags = [
+    document.getElementById('header'),
+    document.getElementById('footer')
+];
+const rodape = document.querySelectorAll('[id^="ft"]');
+const spinner = document.getElementById('spinner');
+
+function showSpinner() {
+    spinner.classList.remove('hidden');
+    premium.style.display = 'none';
+    tags.forEach((i) => {
+        i.classList.add('hidden')
+    });
+
+    rodape.forEach((r, n) => {
+        rodape[3].style.display = 'none';
+        if(n <= 2){
+            r.classList.add('hidden')
+        };
+        
+    });
+    
+};
+
+function hideSpinner() {
+    spinner.classList.add('hidden');
+    premium.style.display = '';
+
+    tags.forEach((i) => {
+        i.classList.remove('hidden');
+    });
+};
+
+function carregando(){
+    showSpinner();
+
+    setTimeout(() => {
+        hideSpinner(); 
+    }, 2000);
+      
+};
+
 // ------- area do Premium --------
 const fechar = document.getElementById('fechar');
 fechar.addEventListener('click', () => {
     premium.classList.add('hidden');
     
 })
-
 //------------------------------------------
 
 //--------Section First--------------------
@@ -91,19 +132,20 @@ function sectionFirst() {
     const artMusic = document.querySelectorAll('[id^="artist-"]');
 
     function artist() {
+        carregando();
         section[0].classList.add('hidden');
         sectionClip[0].classList.remove('hidden');
     }
 
     function addHidden() {
         sectionClip[0].classList.add('hidden');
-    }
+    };
 
     function music(index) {
         artMusic.forEach((element, date) => {
             element.classList.toggle('hidden', date !== index);
         });
-    }
+    };
 
     art.forEach((num, index) => {
         num.addEventListener('click', () => {
@@ -132,7 +174,7 @@ sectionFirst();
         section.forEach((elemento) => {
             elemento.classList.add('hidden');
         })
-        
+        carregando()
         sectionClip[0].classList.add('hidden');
         sectionClip[1].classList.remove('hidden');
     };
