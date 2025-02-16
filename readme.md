@@ -1,4 +1,4 @@
-# 🎵 Projeto Spotify Clone – Mobile 🎵  
+<h1><img src="./src/img/icons/music.svg"  width="4%" alt=""> Projeto Spotify Clone – Mobile <img src="./src/img/icons/music.svg"  width="4%" alt=""></h1>
 
 🚧 **Em Desenvolvimento** 🚧  
 
@@ -35,9 +35,8 @@ Este é um projeto inspirado na interface do Spotify, criado para aprimorar minh
 
 🔹 Adicionar novos recursos interativos  
 🔹 Melhorar a responsividade para diferentes tamanhos de tela  
-🔹 Refinar a UI/UX para melhor experiência do usuário  
-🔹 Implementar novas funções e otimizações no código 
-🔹API integrada para carregamento dinâmico de artistas e músicas  
+🔹 Implementar novas funções e otimizações no código  
+🔹 Integrar API para carregamento dinâmico de artistas e músicas
 
 ---
 
