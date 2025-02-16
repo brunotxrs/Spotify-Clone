@@ -1,32 +1,51 @@
-# Projeto em Construção
+# 🎵 Projeto Spotify Clone – Mobile 🎵  
 
-🚧 **Este projeto está em processo de construção!** 🚧
+🚧 **Em Desenvolvimento** 🚧  
 
-Estou trabalhando ativamente no desenvolvimento deste projeto e, atualmente, ele ainda está em fase de construção. Fique atento para futuras atualizações.
+Este é um projeto inspirado na interface do Spotify, criado para aprimorar minhas habilidades em **HTML, CSS e JavaScript**. No momento, ele está **disponível apenas para dispositivos móveis**, com otimizações para uma experiência fluida e interativa.  
 
-## Status Atual
+---
 
-- O projeto está em desenvolvimento.
-- Novos recursos estão sendo implementados.
-- A documentação está sendo atualizada conforme o progresso.
+## 📌 Status Atual  
 
-## Como Contribuir
+✅ Estrutura base desenvolvida  
+✅ Interações dinâmicas implementadas com JavaScript  
+✅ Organização do código otimizada com funções reutilizáveis   
+🛠️ Melhorias contínuas na interface e na performance  
 
-Se você deseja ajudar no desenvolvimento ou sugerir melhorias, fique à vontade para abrir um pull request ou issue. Ficarei feliz em contar com sua colaboração!
+---
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas  
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) → Estruturação da página
+- **HTML5** → Estruturação semântica da página  
+- **CSS3** → Estilização, responsividade e animações  
+- **JavaScript (ES6+)** → Lógica interativa e manipulação do DOM  
 
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) → Estilização e responsividade
+---
 
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) → Lógica e interações
-## Planejamento
+## 📱 Disponibilidade  
 
-- Adicionar novas funcionalidades.
-- Realizar melhorias na interface.
-- Corrigir possíveis bugs.
+🔹 O projeto está atualmente **otimizado apenas para dispositivos móveis**.  
+🔹 Para telas maiores, uma versão adaptada está em **fase de desenvolvimento**.  
+🔹 Caso acesse via desktop, uma mensagem será exibida informando que o projeto é destinado a mobile.  
 
+---
+
+## 📋 Próximos Passos  
+
+🔹 Adicionar novos recursos interativos  
+🔹 Melhorar a responsividade para diferentes tamanhos de tela  
+🔹 Refinar a UI/UX para melhor experiência do usuário  
+🔹 Implementar novas funções e otimizações no código 
+🔹API integrada para carregamento dinâmico de artistas e músicas  
+
+---
+
+## 💡 Como Contribuir  
+
+Se você deseja colaborar com melhorias, reportar bugs ou sugerir novas funcionalidades, fique à vontade para abrir uma **issue** ou enviar um **pull request**.  
+
+---
 
 ## ✨ Autor
 👨‍💻 Create by Dev Front-End <strong>Bruno Teixeira</strong>
