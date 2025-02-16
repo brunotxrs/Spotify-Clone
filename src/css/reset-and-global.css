@@ -57,9 +57,7 @@ body {
     background-color:#121212;
 }
 
-.hidden { 
-    display: none;
-}
+
 
 .curso-auto {
     cursor: auto;
@@ -99,24 +97,58 @@ body {
     display: none;
 }
 
-.spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid rgba(255, 255, 255, 0.3);
-    border-top: 4px solid #fff;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
+.loader {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;  
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-@keyframes spin {
-    0% { transform: translate(-50%, -50%) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg); }
+.loader span {
+    height: 10px;
+    width: 10px;
+    background-color: #b3b0b0;
+    border: none;
+    margin-right: 15px;
+    border-radius: 50%;
+    animation: animation 1.5s ease-out infinite;
+    
 }
 
+.loader span:nth-child(1) {
+    animation-delay: 0.25s;
+}
+
+.loader span:nth-child(2) {
+    animation-delay: 0.55s;
+}
+
+.loader span:nth-child(3) {
+    animation-delay: 0.75s;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.hidden { 
+    display: none;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .desktop-warning {
