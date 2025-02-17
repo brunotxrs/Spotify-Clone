@@ -83,10 +83,12 @@ const tags = [
     document.getElementById('footer')
 ];
 const rodape = document.querySelectorAll('[id^="ft"]');
-const spinner = document.getElementById('spinner');
 
-function showSpinner() {
-    spinner.classList.remove('hidden');
+
+const loader = document.getElementById('loader')
+
+function showLoader() {
+    loader.classList.remove('hidden');
     premium.style.display = 'none';
     tags.forEach((i) => {
         i.classList.add('hidden')
@@ -102,8 +104,8 @@ function showSpinner() {
     
 };
 
-function hideSpinner() {
-    spinner.classList.add('hidden');
+function hideLoader() {
+    loader.classList.add('hidden');
     premium.style.display = '';
 
     tags.forEach((i) => {
@@ -112,10 +114,10 @@ function hideSpinner() {
 };
 
 function carregando(){
-    showSpinner();
+    showLoader();
 
     setTimeout(() => {
-        hideSpinner(); 
+        hideLoader(); 
     }, 2000);
       
 };
