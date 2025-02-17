@@ -22,10 +22,16 @@ const sectionClip = [
     document.getElementById('section-clip-4'),
     document.getElementById('section-clip-5')
 ];
-
 const headerNav = document.getElementById('header_nav');
 const spanButton = document.getElementById('span');
-const footer = document.getElementById('footer')
+const footer = document.getElementById('footer');
+
+// ir para outra pagina a de buscar
+search.addEventListener('click', () => {
+    location.href = '/src/html/search.html'
+})
+
+
 // -------------função do Nav-----------------
 function visivelNav(show) {
 
@@ -363,3 +369,4 @@ function time(){
 
     
 })();
+// ----------------------
