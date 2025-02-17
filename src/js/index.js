@@ -24,12 +24,39 @@ const sectionClip = [
 const headerNav = document.getElementById('header_nav');
 const spanButton = document.getElementById('span');
 const footer = document.getElementById('footer');
-
+const loader = document.getElementById('loader')
 const pag =  'src/html/search.html'
 
 // ir para outra pagina a de buscar
+function carregandoShow(){
+    premium.classList.add('hidden')
+    section.forEach((element) => {
+        element.classList.add('hidden')
+    })
+    tags.forEach((elements) => {
+        elements.classList.add('hidden')
+    })
+    loader.classList.remove('hidden');
+}
+
+function carregandoOcult(){
+    loader.classList.add('hidden');
+}
+
+function loading(){
+    carregandoShow();
+
+    setTimeout(() => {
+        carregandoOcult()
+    }, 3000);
+}
+
+
+
 search.addEventListener('click', () => {
+    loading()
     location.href = pag
+    
 })
 
 
@@ -88,9 +115,6 @@ const tags = [
     document.getElementById('footer')
 ];
 const rodape = document.querySelectorAll('[id^="ft"]');
-
-
-const loader = document.getElementById('loader')
 
 function showLoader() {
     loader.classList.remove('hidden');
