@@ -9,6 +9,7 @@ const back = document.getElementById('back');
 const digitar = document.getElementById('digitar');
 const outros = document.getElementById('outros');
 const navegar = document.getElementById('navegar');
+const clean = document.getElementById('clean');
 
 buscar.addEventListener('click', () => {
     bc.classList.add('ocult');
@@ -30,6 +31,10 @@ digitar.addEventListener('input', () => {
     outros.classList.remove('ocult');
     inputOuca[1].classList.add('ocult');
     navegar.classList.add('ocult');
+    clean.classList.remove('ocult')
+    clean.addEventListener('click', () => {
+        digitar.value = ''
+    })
 
 });
 
