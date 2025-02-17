@@ -3,7 +3,6 @@ const xmarkSolid = document.getElementById('xmark-solid');
 const logo = document.getElementById('logo');
 const logo1 = document.getElementById('logo-1')
 const search = document.getElementById('search');
-const search1 = document.getElementById('search-1');
 const button = document.getElementById('button');
 const button1 = document.getElementById('button-1');
 const premium = document.getElementById('premium');
@@ -41,7 +40,6 @@ function visivelNav(show) {
         logo.style.opacity = '0';
         logo1.classList.add('curso-auto');
         search.style.opacity = '0';
-        search1.classList.add('curso-auto');
         button.style.opacity = '0';
         spanButton.classList.add('hidden');
         button1.classList.add('curso-auto');
@@ -62,7 +60,6 @@ function visivelNav(show) {
         logo.style.opacity = '1';
         logo1.classList.remove('curso-auto');
         search.style.opacity = '1';
-        search1.classList.remove('curso-auto');
         button.style.opacity = '1';
         spanButton.classList.remove('hidden');
         button1.classList.remove('curso-auto');
