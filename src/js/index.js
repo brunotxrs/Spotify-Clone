@@ -29,7 +29,7 @@ const pag =  './src/html/search.html'
 
 // ir para outra pagina a de buscar
 search.addEventListener('click', () => {
-    location.href = './src/html/search.html'
+    location.href = pag
 })
 
 
