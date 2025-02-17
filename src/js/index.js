@@ -25,9 +25,11 @@ const headerNav = document.getElementById('header_nav');
 const spanButton = document.getElementById('span');
 const footer = document.getElementById('footer');
 
+const pag =  './src/html/search.html'
+
 // ir para outra pagina a de buscar
 search.addEventListener('click', () => {
-    location.href = '/src/html/search.html'
+    location.href = './src/html/search.html'
 })
 
 
