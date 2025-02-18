@@ -190,7 +190,196 @@
                 background: url(../img/mobile/sec-4.png);   
             }
 
-            .c-1, .c-2, .c-3, .c-4 {
+            .c-5 {
+                background: url(../img/mobile/sec-5.jpeg);   
+            }
+
+            .c-6 {
+                background: url(../img/mobile/sec-6.jpeg);   
+            }
+
+            .c-7 {
+                background: url(../img/mobile/sec-7.jpeg);   
+            }
+
+            .c-8 {
+                background: url(../img/mobile/sec-8.jpeg);   
+            }
+
+            .c-9 {
+                background: url(../img/mobile/sec-9.jpeg);   
+            }
+
+            .c-10 {
+                background: url(../img/mobile/sec-10.jpeg);   
+            }
+
+            .c-11 {
+                background: url(../img/mobile/sec-11.jpeg);   
+            }
+
+            .c-12 {
+                background: url(../img/mobile/sec-12.jpeg);   
+            }
+
+            .c-13 {
+                background: url(../img/mobile/sec-13.jpeg);   
+            }
+
+            .c-14 {
+                background: url(../img/mobile/sec-14.jpeg);   
+            }
+
+            .c-15{
+                background: url(../img/mobile/sec-15.jpeg);
+            }
+            .c-16{
+                background: url(../img/mobile/sec-16.jpeg);
+            }
+            .c-17{
+                background: url(../img/mobile/sec-17.jpeg);
+            }
+            .c-18{
+                background: url(../img/mobile/sec-18.jpeg);
+            }
+            .c-19{
+                background: url(../img/mobile/sec-19.jpeg);
+            }
+            .c-20{
+                background: url(../img/mobile/sec-20.jpeg);
+            }
+            .c-21{
+                background: url(../img/mobile/sec-21.jpeg);
+            }
+            .c-22{
+                background: url(../img/mobile/sec-22.jpeg);
+            }
+            .c-23{
+                background: url(../img/mobile/sec-23.jpeg);
+            }
+            .c-24{
+                background: url(../img/mobile/sec-24.jpeg);
+            }
+            .c-25{
+                background: url(../img/mobile/sec-25.jpeg);
+            }
+            .c-26{
+                background: url(../img/mobile/sec-26.jpeg);
+            }
+            .c-27{
+                background: url(../img/mobile/sec-27.jpeg);
+            }
+            .c-28{
+                background: url(../img/mobile/sec-28.jpeg);
+            }
+            .c-29{
+                background: url(../img/mobile/sec-29.jpeg);
+            }
+            .c-30{
+                background: url(../img/mobile/sec-30.jpeg);
+            }
+            .c-31{
+                background: url(../img/mobile/sec-31.jpeg);
+            }
+            .c-32{
+                background: url(../img/mobile/sec-32.jpeg);
+            }
+            .c-33{
+                background: url(../img/mobile/sec-33.jpeg);
+            }
+            .c-34{
+                background: url(../img/mobile/sec-34.jpeg);
+            }
+            .c-35{
+                background: url(../img/mobile/sec-35.jpeg);
+            }
+            .c-36{
+                background: url(../img/mobile/sec-36.jpeg);
+            }
+            .c-37{
+                background: url(../img/mobile/sec-37.jpeg);
+            }
+            .c-38{
+                background: url(../img/mobile/sec-38.jpeg);
+            }
+            .c-39{
+                background: url(../img/mobile/sec-39.jpeg);
+            }
+            .c-40{
+                background: url(../img/mobile/sec-40.jpeg);
+            }
+            .c-41{
+                background: url(../img/mobile/sec-41.jpeg);
+            }
+            .c-42{
+                background: url(../img/mobile/sec-42.jpeg);
+            }
+            .c-43{
+                background: url(../img/mobile/sec-43.jpeg);
+            }
+            .c-44 {
+                background: url(../img/mobile/sec-44.jpeg);
+            }
+            .c-45{
+                background: url(../img/mobile/sec-45.jpeg);
+            }
+            .c-46{
+                background: url(../img/mobile/sec-46.jpeg);
+            }
+            .c-47{
+                background: url(../img/mobile/sec-47.jpeg);
+            }
+            .c-48{
+                background: url(../img/mobile/sec-48.jpeg);
+            }
+            .c-49{
+                background: url(../img/mobile/sec-49.jpeg);
+            }
+            .c-50{
+                background: url(../img/mobile/sec-50.jpeg);
+            }
+            .c-51{
+                background: url(../img/mobile/sec-51.jpeg);
+            }
+            .c-52{
+                background: url(../img/mobile/sec-52.jpeg);
+            }
+            .c-53{
+                background: url(../img/mobile/sec-53.jpeg);
+            }
+            .c-54{
+                background: url(../img/mobile/sec-54.jpeg);
+            }
+            .c-55{
+                background: url(../img/mobile/sec-55.jpeg);
+            }
+            .c-56{
+                background: url(../img/mobile/sec-56.jpeg);
+            }
+            .c-57{
+                background: url(../img/mobile/sec-57.jpeg);
+            }
+            .c-58{
+                background: url(../img/mobile/sec-58.jpeg);
+            }
+            .c-59{
+                background: url(../img/mobile/sec-59.jpeg);
+            }
+            .c-60{
+                background: url(../img/mobile/sec-60.jpeg);
+            }
+            .c-61{
+                background: url(../img/mobile/sec-61.jpeg);
+            }
+
+
+            .c-1, .c-2, .c-3, .c-4, .c-5, .c-6, .c-7, .c-8, .c-9, .c-10, 
+            .c-11, .c-12, .c-13, .c-14, .c-15, .c-16, .c-17, .c-18, .c-19, 
+            .c-20, .c-21, .c-22, .c-23, .c-24, .c-25, .c-26, .c-27, .c-28, .c-29, 
+            .c-30, .c-31, .c-32, .c-33, .c-34, .c-35, .c-36, .c-37, .c-38, .c-39, 
+            .c-40, .c-41, .c-42, .c-43, .c-44, .c-45, .c-46, .c-47, .c-48, .c-49, 
+            .c-50, .c-51, .c-52, .c-53, .c-54, .c-55, .c-56, .c-57, .c-58, .c-59, 
+            .c-60, .c-61 {
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
