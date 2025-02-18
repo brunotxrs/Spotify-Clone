@@ -6,4 +6,5 @@
 
 /* ------------------- */
 
-@import url(search.css);
+@import url(./search/search.css);
+@import url(./search/section_to_api.css);
