@@ -34,6 +34,7 @@ digitar.addEventListener('input', () => {
     clean.classList.remove('ocult')
     clean.addEventListener('click', () => {
         digitar.value = ''
+        clean.classList.add('ocult')
     })
 
 });
