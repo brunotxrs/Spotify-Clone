@@ -23,6 +23,7 @@ back.addEventListener('click', () => {
     location.reload()
 });
 
+
 function callApi(buscar){
     const url = `http://localhost:3000/artistas?name_like=${buscar}`;
 
@@ -33,23 +34,40 @@ function callApi(buscar){
 }
 
 // função de fazer o objeto da api aparecer 
-function displayResults(result){
+function displayResults(result) {
     outros.classList.remove('ocult');
     inputOuca[1].classList.add('ocult');
     navegar.classList.add('ocult');
-    clean.classList.remove('ocult')
+    clean.classList.remove('ocult');
 
-    const name = document.getElementById('name');
-    const img = document.getElementById('img');
+    const container = document.getElementById('container');
 
     result.forEach(element => {
+        // Criando um novo bloco para cada artista encontrado
+        const artistaDiv = document.createElement('div');
+        artistaDiv.classList.add('artista');
+        const span = document.createElement('span');
+        span.classList.add('img_box');
+
+        const name = document.createElement('p');
         name.innerText = element.nome;
+
+        const img = document.createElement('img');
         img.src = element.urlImg;
+        img.alt = element.nome;
+
+        // Adiciona os elementos dentro da div do artista
+        artistaDiv.appendChild(span)
+        span.appendChild(img);
+        span.appendChild(name);
+
+        // Adiciona ao container principal
+        container.appendChild(artistaDiv);
     });
 
     container.classList.remove('hidd');
-    
 }
+
 
 
 // quando houver ação de digita 
