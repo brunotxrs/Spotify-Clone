@@ -2,7 +2,7 @@
   "artistas": [
     {
       "id": 1,
-      "nome": "Henrique & Juliano", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-1.jpeg?raw=true"
+      "nome": "Henrique & Juliano", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-1.jpeg?raw=true", "url": ""
     },
     {
       "id": 2,
@@ -81,4 +81,8 @@
       "nome": "Wesley Safadão", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-17.jpeg?raw=true"
     }
   ]
+
+  
 }
+
+
