@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <section class="searc">
+        <section class="searc" id="ind">
             <div class="buscar" id="bc">
                 <h2>Buscar</h2>
                 <div class="bus" id="buscar"><img src="../img/icons/search-black.svg" alt=""><span>O que você quer ouvir?</span></div>
@@ -19,7 +19,7 @@
                 <img src="../img/icons/arrow-left-solid.svg" alt="" id="back">
                 <img src="../img/icons/search-black.svg" alt="">
                 <img class="ocult" src="../img/icons/close.svg" alt="" id="clean">
-                <input type="text" placeholder="O que você quer ouvir?" id="digitar" autocomplete="off">   
+                <input type="text" placeholder="O que você quer ouvir?" id="digitar" autocomplete="off" onclick="buscar">   
             </div>
 
             <div class="outros ocult" id="outros">
@@ -100,6 +100,19 @@
                 </div>
             </div>
         </section>
+
+        <section class="container hidd" id="container">
+            <div class="box_art" id="box_art">
+                <div class="img_box">
+                    <img src="" alt="" id="img" class="img-art">
+                    <div class="play" id="play">
+                        <img src="./src/img/icons/play-solid.svg" alt="">
+                    </div>
+                </div>
+                <span class="name" id="name"></span>
+            </div>
+        </section>
+
     </main>
 
     <script src="../js/serach.js"></script>
