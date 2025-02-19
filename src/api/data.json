@@ -1,72 +1,17 @@
 {
-    "artistasPopulares": [
-      {
-        "id": "art-1",
-        "nome": "Henrique & Juliano",
-        "imagem": "henrique-e-juliano"
-      },
-      {
-        "id": "art-2",
-        "nome": "MC Tuto",
-        "imagem": "mc-tuto"
-      },
-      {
-        "id": "art-3",
-        "nome": "Jorge & Mateus",
-        "imagem": "jorge-e-mateus"
-      }
-    ],
-  
-    "albuns": [
-      {
-        "id": "box_albuns-1",
-        "nome": "Obrigado Deus",
-        "imagem": "bg_albuns-1"
-      },
-      {
-        "id": "box_albuns-2",
-        "nome": "Playlist Sertaneja",
-        "imagem": "bg_albuns-2"
-      }
-    ],
-  
-    "radios": [
-      {
-        "id": "radio-1",
-        "nome": "Top Brasil",
-        "imagem": "bg_radio-1"
-      },
-      {
-        "id": "radio-2",
-        "nome": "Pagodeira",
-        "imagem": "bg_radio-2"
-      }
-    ],
-  
-    "destaques": [
-      {
-        "id": "destaque-1",
-        "nome": "Lançamentos da Semana",
-        "imagem": "bg_destaque-1"
-      },
-      {
-        "id": "destaque-2",
-        "nome": "As Mais Ouvidas",
-        "imagem": "bg_destaque-2"
-      }
-    ],
-  
-    "acompanhamentos": [
-      {
-        "id": "acompanhar-1",
-        "nome": "Top Hits",
-        "imagem": "bg_acompanhar-1"
-      },
-      {
-        "id": "acompanhar-2",
-        "nome": "Funk do Momento",
-        "imagem": "bg_acompanhar-2"
-      }
-    ]
-  }
-  
+  "artistas": [
+    {
+      "id": 1,
+      "nome": "Henrique & Juliano",
+      "genero": "Sertanejo",
+      "urlImg": "https://th.bing.com/th/id/OIP.eQ7RFDVUEDnm6_GhI6G7VwHaEo?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 2,
+      "nome": "Gusttavo Lima",
+      "genero": "Sertanejo",
+      "urlImg": "https://th.bing.com/th/id/OIP.1QmeCDWrt6p8oYvTWRvv7QHaHa?rs=1&pid=ImgDetMain"
+    }
+  ]
+}
+
