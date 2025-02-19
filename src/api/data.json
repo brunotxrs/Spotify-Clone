@@ -2,16 +2,83 @@
   "artistas": [
     {
       "id": 1,
-      "nome": "Henrique & Juliano",
-      "genero": "Sertanejo",
-      "urlImg": "https://th.bing.com/th/id/OIP.eQ7RFDVUEDnm6_GhI6G7VwHaEo?rs=1&pid=ImgDetMain"
+      "nome": "Henrique & Juliano", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-1.jpeg?raw=true"
     },
     {
       "id": 2,
-      "nome": "Gusttavo Lima",
-      "genero": "Sertanejo",
-      "urlImg": "https://th.bing.com/th/id/OIP.1QmeCDWrt6p8oYvTWRvv7QHaHa?rs=1&pid=ImgDetMain"
+      "nome": "MC Tuto", "urlImg": "https://lyricstranslate.com/files/ab6761610000e5eb32f37851f7aa2c9088749be9.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Jorge & Mateus", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-3.jpeg?raw=true"
+    },
+    {
+      "id": 4,
+      "nome": "Grupo Menos É Mais", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-4.jpeg?raw=true"
+    },
+    {
+      "id": 5,
+      "nome": "NATTAN", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-5.jpeg?raw=true"
+    },
+    {
+      "id": 6,
+      "nome": "Matheus & Kauan", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-6.jpeg?raw=true"
+    },
+    {
+      "id": 7,
+      "nome": "Zé Neto & Cristiano", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-7.jpeg?raw=true"
+    },
+    {
+      "id": 8,
+      "nome": "Oruam", "urlImg": "https://th.bing.com/th/id/OIP.PWXJY-nGYgmERmEVkEA4dQHaI6?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 9,
+      "nome": "Murilo Huff", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-8.jpeg?raw=true"
+    },
+    {
+      "id": 10,
+      "nome": "Hugo & Guilherme", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-9.jpeg?raw=true"
+    },
+    {
+      "id": 11,
+      "nome": "Gusttavo Lima", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-10.jpeg?raw=true"
+    },
+    {
+      "id": 12,
+      "nome": "Léo Foguete", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-11.jpeg?raw=true"
+    },
+    {
+      "id": 13,
+      "nome": "MC LUUKY", "urlImg": "https://th.bing.com/th/id/OIP.-unjFctvY0GphqJ3wuV_bQHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 14,
+      "nome": "Nilo", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-12.jpeg?raw=true"
+    },
+    {
+      "id": 15,
+      "nome": "Luan Pereira", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-13.jpeg?raw=true"
+    },
+    {
+      "id": 16,
+      "nome": "Guilherme & Benuto", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-14.jpeg?raw=true"
+    },
+    {
+      "id": 17,
+      "nome": "Marília Mendonça", "urlImg": "https://mixdeseries.com.br/wp-content/uploads/2023/09/cropped-Prime_Video_lancara_filme_biografico_de_Marilia_Mendonca._1.webp"
+    },
+    {
+      "id": 18,
+      "nome": "Gustavo Mioto", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-15.jpeg?raw=true"
+    },
+    {
+      "id": 19,
+      "nome": "Henry Freitas", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-16.jpeg?raw=true"
+    },
+    {
+      "id": 20,
+      "nome": "Wesley Safadão", "urlImg": "https://github.com/brunotxrs/Spotify-Clone/blob/main/src/img/mobile/c-17.jpeg?raw=true"
     }
   ]
 }
-
