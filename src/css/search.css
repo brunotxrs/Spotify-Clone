@@ -1,6 +1,6 @@
 .searc {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
 
     .buscar{
@@ -396,5 +396,63 @@
         display: none;
     }
 
+}
+
+
+.container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+
+
+
+    .box_art {
+        width: 170px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0.621rem;
+        border-radius: 0.625rem;
+
+
+        .img_box {
+            width: 150px;
+            height: 150px;
+            border-radius: 0.625rem;
+            overflow: hidden;
+
+            .img-art {
+               width: 100%;
+               height: 100%;
+            }
+        }
+
+        .name {
+            width: 100%;
+            height:50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 5px 0 0 10px;
+        }
+    }
+
+    .box_art:hover {
+        background-color: #383535;
+    }
+
+    
+
+    
+    
+}
+
+.hidd {
+    display: none;
 }
 
