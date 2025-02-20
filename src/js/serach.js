@@ -1,105 +1,36 @@
 const buscar = document.getElementById('buscar');
-const bc = document.getElementById('bc');
-const inputOuca = [
-    document.getElementById('input'),
-    document.getElementById('ouca')
-]
-
-const back = document.getElementById('back');
-const digitar = document.getElementById('digitar');
-const outros = document.getElementById('outros');
-const navegar = document.getElementById('navegar');
-const clean = document.getElementById('clean');
-const container = document.getElementById('container')
-
+const ind =  document.getElementById('ind')
+const pag3 = '/src/html/input.html'
+const loading = document.getElementById('loader')
 buscar.addEventListener('click', () => {
-    bc.classList.add('ocult');
-    inputOuca.forEach((element) => {
-        element.classList.remove('ocult')
-    });
+    location.href = pag3
 });
 
-back.addEventListener('click', () => {
-    location.reload()
-});
-
-
-function callApi(buscar){
-    const url = `http://localhost:3000/artistas?name_like=${buscar}`;
-
-    fetch(url)
-        .then((response) => response.json())
-        .then((result) => displayResults(result))
-
+function loadingShow(){
+    loading.classList.remove('hidden')
 }
 
-// função de fazer o objeto da api aparecer 
-function displayResults(result) {
-    outros.classList.remove('ocult');
-    inputOuca[1].classList.add('ocult');
-    navegar.classList.add('ocult');
-    clean.classList.remove('ocult');
+function loadingOcult(){
+    loading.classList.add('hidden')
+}
+function load() {
+    loadingShow()
 
-    const container = document.getElementById('container');
-
-    result.forEach(element => {
-        // Criando um novo bloco para cada artista encontrado
-        const artistaDiv = document.createElement('div');
-        artistaDiv.classList.add('artista');
-        const span = document.createElement('span');
-        span.classList.add('img_box');
-
-        const name = document.createElement('p');
-        name.innerText = element.nome;
-
-        const img = document.createElement('img');
-        img.src = element.urlImg;
-        img.alt = element.nome;
-
-        // Adiciona os elementos dentro da div do artista
-        artistaDiv.appendChild(span)
-        span.appendChild(img);
-        span.appendChild(name);
-
-        // Adiciona ao container principal
-        container.appendChild(artistaDiv);
-    });
-
-    container.classList.remove('hidd');
+    setTimeout(() => {
+        loadingOcult()
+    }, 3000)
 }
 
-
-
-// quando houver ação de digita 
-document.addEventListener('input', () => {
-
-    const search = digitar.value.toLowerCase();
-
-    if(search === ''){
-        outros.classList.add('ocult');
-        inputOuca[1].classList.remove('ocult');
-        navegar.classList.remove('ocult');
-        clean.classList.add('ocult');
-        
-        return;
+// Função para detectar pressionamento da tecla Backspace
+document.addEventListener('keydown', function(event) {
+    ind.classList.add('hidden')    
+    if (event.key === 'Backspace') {
+        load()
+      // Evita  comportamento padrão do Backspace (voltar para a página anterior)
+      event.preventDefault();
+  
+      // Redireciona para o index principal
+      window.location.href = '/'; // Ajuste o caminho conforme necessário
     }
-
-    // chamando a api
-    callApi(search)
-
-    
 });
-
-// limpar o input apos clicar o botão de limpar 
-clean.addEventListener('click', () => {
-
-    digitar.value = ''
-    clean.classList.add('ocult');
-    container.style.display = 'none'
-
-    outros.classList.add('ocult');
-    inputOuca[1].classList.remove('ocult');
-    navegar.classList.remove('ocult');
-    clean.classList.add('ocult');
-
-});
+  
