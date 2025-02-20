@@ -9,31 +9,17 @@
 </head>
 <body>
     <main>
+        <div class="loader hidden" id="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
         <section class="searc" id="ind">
             <div class="buscar" id="bc">
                 <h2>Buscar</h2>
                 <div class="bus" id="buscar"><img src="../img/icons/search-black.svg" alt=""><span>O que você quer ouvir?</span></div>
             </div>
-
-            <div class="input ocult" id="input">
-                <img src="../img/icons/arrow-left-solid.svg" alt="" id="back">
-                <img src="../img/icons/search-black.svg" alt="">
-                <img class="ocult" src="../img/icons/close.svg" alt="" id="clean">
-                <input type="text" placeholder="O que você quer ouvir?" id="digitar" autocomplete="off" value="">   
-            </div>
-
-            <div class="outros ocult" id="outros">
-                <span>Músicas</span>
-                <span>Artistas</span> 
-                <span>Playlists</span> 
-                <span>Álbuns</span> 
-            </div>
-
-            <div class="ouca ocult" id="ouca">
-                <p>Ouça o que ama</p>
-                <p>Busque artistas, músicas, podcasts e muito mais.</p>
-            </div>
-
             <div class="navegar" id="navegar">
                 <p>Navegar por todas as seções</p>
                 <div class="secao">
@@ -100,10 +86,6 @@
                 </div>
             </div>
         </section>
-
-        <section class="container hidd" id="container"> 
-        </section>
-
     </main>
 
     <script src="../js/serach.js"></script>
