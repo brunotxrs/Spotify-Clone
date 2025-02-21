@@ -27,11 +27,9 @@ document.addEventListener('keydown', function(event) {
     ind.classList.add('hidden')    
     if (event.key === 'Backspace') {
         load()
-      // Evita  comportamento padrão do Backspace (voltar para a página anterior)
-      event.preventDefault();
-  
+      
       // Redireciona para o index principal
-      location.href = pag1;
+      location.assign(pag1);
       
     }
 });
