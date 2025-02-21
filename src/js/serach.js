@@ -1,6 +1,7 @@
 const buscar = document.getElementById('buscar');
 const ind =  document.getElementById('ind')
 const pag3 = 'input.html'
+const pag1 = '/index.html'
 const loading = document.getElementById('loader')
 buscar.addEventListener('click', () => {
     location.href = pag3
@@ -30,7 +31,7 @@ document.addEventListener('keydown', function(event) {
       event.preventDefault();
   
       // Redireciona para o index principal
-      window.location.href = '/'; // Ajuste o caminho conforme necessário
+      window.location.href = pag1; // Ajuste o caminho conforme necessário
     }
 });
   
