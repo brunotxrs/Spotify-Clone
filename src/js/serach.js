@@ -7,29 +7,29 @@ buscar.addEventListener('click', () => {
     location.href = pag3
 });
 
-function loadingShow(){
-    loading.classList.remove('hidden')
-}
+// function loadingShow(){
+//     loading.classList.remove('hidden')
+// }
 
-function loadingOcult(){
-    loading.classList.add('hidden')
-}
-function load() {
-    loadingShow()
+// function loadingOcult(){
+//     loading.classList.add('hidden')
+// }
+// function load() {
+//     loadingShow()
 
-    setTimeout(() => {
-        loadingOcult()
-    }, 3000)
-}
+//     setTimeout(() => {
+//         loadingOcult()
+//     }, 3000)
+// }
 
 // Função para detectar pressionamento da tecla Backspace
-document.addEventListener('keydown', function(event) {
-    ind.classList.add('hidden')    
-    if (event.key === 'Backspace') {
-        load()
+// document.addEventListener('keydown', function(event) {
+//     ind.classList.add('hidden')    
+//     if (event.key === 'Backspace') {
+//         load()
       
-      // Redireciona para o index principal
-      location.assign(pag1);
+//       // Redireciona para o index principal
+//       location.assign(pag1);
       
-    }
-});
+//     }
+// });
