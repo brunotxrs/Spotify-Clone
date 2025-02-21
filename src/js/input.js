@@ -7,9 +7,12 @@ const ouca = document.getElementById('ouca');
 const navegar = document.getElementById('navegar');
 const container = document.getElementById('container');
 const loader = document.getElementById('loader')
+const pag2 = 'search.html'
 back.addEventListener('click', () => {
-    location.href = 'search.html';
+    location.href = pag2;
 });
+
+console.log(pag2)
 
 function toggleElements(...elements) {
     elements.forEach(element => element.classList.toggle('ocult'));
