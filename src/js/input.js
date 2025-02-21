@@ -8,7 +8,7 @@ const navegar = document.getElementById('navegar');
 const container = document.getElementById('container');
 const loader = document.getElementById('loader')
 back.addEventListener('click', () => {
-    location.href = '/src/html/search.html';
+    location.href = 'search.html';
 });
 
 function toggleElements(...elements) {
