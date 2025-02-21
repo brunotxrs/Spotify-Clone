@@ -31,7 +31,8 @@ document.addEventListener('keydown', function(event) {
       event.preventDefault();
   
       // Redireciona para o index principal
-      window.location.href = pag1; // Ajuste o caminho conforme necessário
+      location.replace(pag1)
+      
     }
 });
   
