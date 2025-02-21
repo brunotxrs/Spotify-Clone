@@ -9,7 +9,7 @@ const container = document.getElementById('container');
 const loader = document.getElementById('loader')
 const pag2 = 'search.html'
 back.addEventListener('click', () => {
-    location.href = pag2;
+    location.replace(pag2);
 });
 
 console.log(pag2)
