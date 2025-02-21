@@ -1,6 +1,6 @@
 const buscar = document.getElementById('buscar');
 const ind =  document.getElementById('ind')
-const pag3 = '/src/html/input.html'
+const pag3 = 'input.html'
 const loading = document.getElementById('loader')
 buscar.addEventListener('click', () => {
     location.href = pag3
