@@ -118,3 +118,9 @@
         }
     }
 }
+
+@media screen and (min-width: 1020px) {
+    .mobile {
+        display: none;
+    }
+}
