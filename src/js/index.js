@@ -393,3 +393,11 @@ function time(){
     
 })();
 // ----------------------
+
+
+const btnMostra = document.getElementById('btn-mostra')
+btnMostra.addEventListener('click', () => {
+    const pagArtist = 'src/html/artista_populares.html'
+
+    location.href = pagArtist
+})
