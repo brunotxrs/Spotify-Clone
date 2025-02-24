@@ -54,8 +54,101 @@
 
     }
 
-
+    .bg_albuns-1 {
+        background: url(../img/mobile/s-1.png) no-repeat center;
+        background-size: cover;
+    }
     
+    .bg_albuns-2 {
+        background: url(../img/mobile/s-2.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-3 {
+        background: url(../img/mobile/s-3.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-4 {
+        background: url(../img/mobile/s-4.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-5 {
+        background: url(../img/mobile/s-5.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-6 {
+        background: url(../img/mobile/s-6.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-7 {
+        background: url(../img/mobile/s-7.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-8 {
+        background: url(../img/mobile/s-8.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-9 {
+        background: url(../img/mobile/s-9.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-10 {
+        background: url(../img/mobile/s-10.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-11 {
+        background: url(../img/mobile/s-11.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-12 {
+        background: url(../img/mobile/s-12.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-13 {
+        background: url(../img/mobile/s-13.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-14 {
+        background: url(../img/mobile/s-14.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-15 {
+        background: url(../img/mobile/s-15.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-16 {
+        background: url(../img/mobile/s-16.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-17 {
+        background: url(../img/mobile/s-17.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-18 {
+        background: url(../img/mobile/s-18.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_albuns-19 {
+        background: url(../img/mobile/s-19.jpeg) no-repeat center;
+        background-size: cover;
+    }
+        
 }
 
 .section-clip-2 {
@@ -81,97 +174,180 @@
     }
 }
 
-.bg_albuns-1 {
-    background: url(../img/mobile/s-1.png) no-repeat center;
-    background-size: cover;
-}
 
-.bg_albuns-2 {
-    background: url(../img/mobile/s-2.png) no-repeat center;
-    background-size: cover;
-}
+@media (min-width: 1025px)  {
+ 
+    .section-2 {
 
-.bg_albuns-3 {
-    background: url(../img/mobile/s-3.jpeg) no-repeat center;
-    background-size: cover;
-}
+        .title {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px 0 0 ;
+        
+            .h2 {
+                cursor: pointer;
+                font-size: 1.5rem;
+                font-weight: 700;
+                font-family: var(--font-spotify);
+                
+            }
+    
+            .h2:hover {
+                text-decoration: underline;
+            }
 
-.bg_albuns-4 {
-    background: url(../img/mobile/s-4.jpeg) no-repeat center;
-    background-size: cover;
-}
 
-.bg_albuns-5 {
-    background: url(../img/mobile/s-5.jpeg) no-repeat center;
-    background-size: cover;
-}
 
-.bg_albuns-6 {
-    background: url(../img/mobile/s-6.jpeg) no-repeat center;
-    background-size: cover;
-}
+            span {
+                margin-top: 17px;
 
-.bg_albuns-7 {
-    background: url(../img/mobile/s-7.jpeg) no-repeat center;
-    background-size: cover;
-}
+                p {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    color: #BBBBBB;
+    
+    
+                }
+            }
 
-.bg_albuns-8 {
-    background: url(../img/mobile/s-8.jpeg) no-repeat center;
-    background-size: cover;
-}
+            span:hover {
+                color: white;
+                text-decoration: underline;
+                
+            }
+            
+        }
 
-.bg_albuns-9 {
-    background: url(../img/mobile/s-9.jpeg) no-repeat center;
-    background-size: cover;
-}
+        .first_box {
+            width: 100%;
+            height: 220px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
 
-.bg_albuns-10 {
-    background: url(../img/mobile/s-10.jpeg) no-repeat center;
-    background-size: cover;
-}
+            position: relative;
 
-.bg_albuns-11 {
-    background: url(../img/mobile/s-11.jpeg) no-repeat center;
-    background-size: cover;
-}
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 160px;
+                height: 200px;
 
-.bg_albuns-12 {
-    background: url(../img/mobile/s-12.jpeg) no-repeat center;
-    background-size: cover;
-}
+                .box_img {
+                    width: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
 
-.bg_albuns-13 {
-    background: url(../img/mobile/s-13.jpeg) no-repeat center;
-    background-size: cover;
-}
 
-.bg_albuns-14 {
-    background: url(../img/mobile/s-14.jpeg) no-repeat center;
-    background-size: cover;
-}
+                    .back_img {
+                        width: 150px;
+                        height: 150px;
+                    }
 
-.bg_albuns-15 {
-    background: url(../img/mobile/s-15.jpeg) no-repeat center;
-    background-size: cover;
-}
+                }
 
-.bg_albuns-16 {
-    background: url(../img/mobile/s-16.jpeg) no-repeat center;
-    background-size: cover;
-}
 
-.bg_albuns-17 {
-    background: url(../img/mobile/s-17.jpeg) no-repeat center;
-    background-size: cover;
-}
 
-.bg_albuns-18 {
-    background: url(../img/mobile/s-18.jpeg) no-repeat center;
-    background-size: cover;
-}
+                .a1, .a2, .a3, .a4, .a5 {
+    
+                    .btn-play {
+                        width: 120px;
+                        height: 120px;
+                        position: absolute;
 
-.bg_albuns-19 {
-    background: url(../img/mobile/s-19.jpeg) no-repeat center;
-    background-size: cover;
+                        .play {
+                            
+                            width: 50px;
+                            height: 50px;
+                            position: relative;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(30%, 30%);
+                            border-radius: 50%;
+                            opacity: 0;
+                            transition: opacity 1s ease-in-out;
+                            background-color: #3BE477;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            box-shadow: 0px 2px 5px #0000008b;
+                        
+                            img {
+                                width: 25px;
+                                height: 25px;
+                                margin: auto;
+                            }
+                        }
+                    }
+
+                }
+
+                .a1:hover, 
+                .a2:hover, 
+                .a3:hover, 
+                .a4:hover, 
+                .a5:hover {
+
+                    .play {
+                        opacity: 1;
+                    }
+
+                }
+
+
+                .span {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+    
+                .span:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+        #box_albuns-6, #box_albuns-7, 
+        #box_albuns-8, #box_albuns-9, 
+        #box_albuns-10, #box_albuns-11, #box_albuns-12, #box_albuns-13, #box_albuns-14, #box_albuns-15, #box_albuns-16, #box_albuns-17, #box_albuns-18, #box_albuns-19 {
+            display: none;
+        }
+    }
+
+    .section-clip-2 {
+        width: 100%;
+        height: 100%;
+    
+        .box_music_first {
+            width: 100%;
+            height: 100%;
+    
+            .box_music {
+                width: 100%;
+                height: 100%;
+    
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }

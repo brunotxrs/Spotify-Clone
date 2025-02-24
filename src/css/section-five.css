@@ -55,6 +55,106 @@
     }
 
 
+    .bg_acompanhar-1 {
+        background: url(../img/mobile/acompanhar-1.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-2 {
+        background: url(../img/mobile/acompanhar-2.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-3 {
+        background: url(../img/mobile/acompanhar-3.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-4 {
+        background: url(../img/mobile/acompanhar-4.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-5 {
+        background: url(../img/mobile/acompanhar-5.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-6 {
+        background: url(../img/mobile/acompanhar-6.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-7 {
+        background: url(../img/mobile/acompanhar-7.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-8 {
+        background: url(../img/mobile/acompanhar-8.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-9 {
+        background: url(../img/mobile/acompanhar-9.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-10 {
+        background: url(../img/mobile/acompanhar-10.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-11 {
+        background: url(../img/mobile/acompanhar-11.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-12 {
+        background: url(../img/mobile/acompanhar-12.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-13 {
+        background: url(../img/mobile/acompanhar-13.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-14 {
+        background: url(../img/mobile/acompanhar-14.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-15 {
+        background: url(../img/mobile/acompanhar-15.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-16 {
+        background: url(../img/mobile/acompanhar-16.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-17 {
+        background: url(../img/mobile/acompanhar-17.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-18 {
+        background: url(../img/mobile/acompanhar-18.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-19 {
+        background: url(../img/mobile/acompanhar-19.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .bg_acompanhar-20 {
+        background: url(../img/mobile/acompanhar-20.jpeg) no-repeat center;
+        background-size: cover;
+    }
+
     
 }
 
@@ -81,102 +181,180 @@
     }
 }
 
-.bg_acompanhar-1 {
-    background: url(../img/mobile/acompanhar-1.jpeg) no-repeat center;
-    background-size: cover;
+
+
+
+@media (min-width: 1025px)  {
+ 
+    .section-5 {
+
+        .title {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px 0 0 ;
+        
+            .h2 {
+                cursor: pointer;
+                font-size: 1.5rem;
+                font-weight: 700;
+                font-family: var(--font-spotify);
+                
+            }
+    
+            .h2:hover {
+                text-decoration: underline;
+            }
+
+
+
+            span {
+                margin-top: 15px;
+
+                p {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    color: #BBBBBB;
+    
+    
+                }
+            }
+
+            span:hover {
+                color: white;
+                text-decoration: underline;
+                
+            }
+            
+        }
+
+        .first_box {
+            width: 100%;
+            height: 220px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+
+            position: relative;
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 160px;
+                height: 200px;
+
+                .box_img {
+                    width: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    .back_img {
+                        width: 150px;
+                        height: 150px;
+                    }
+
+                }
+
+
+
+                .d1, .d2, .d3, .d4, .d5 {
+    
+                    .btn-play {
+                        width: 120px;
+                        height: 120px;
+                        position: absolute;
+
+                        .play {
+                            
+                            width: 50px;
+                            height: 50px;
+                            position: relative;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(30%, 30%);
+                            border-radius: 50%;
+                            opacity: 0;
+                            transition: opacity 1s ease-in-out;
+                            background-color: #3BE477;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            box-shadow: 0px 2px 5px #0000008b;
+                        
+                            img {
+                                width: 25px;
+                                height: 25px;
+                                margin: auto;
+                            }
+                        }
+                    }
+
+                }
+
+                .d1:hover, 
+                .d2:hover, 
+                .d3:hover, 
+                .d4:hover, 
+                .d5:hover {
+
+                    .play {
+                        opacity: 1;
+                    }
+
+                }
+
+
+                .span {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    font-weight: 500;
+                    font-size: 0.8rem;
+                    color: #BBBBBB;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+    
+            }
+
+        }
+
+         
+        #acompanhar-6, #acompanhar-7, #acompanhar-8, #acompanhar-9, #acompanhar-10, #acompanhar-11, #acompanhar-12, #acompanhar-13, #acompanhar-14, #acompanhar-15, #acompanhar-16, #acompanhar-17, #acompanhar-18, #acompanhar-19, #acompanhar-20 {
+            display: none;
+        }
+    }
+
+    .section-clip-5 {
+        width: 100%;
+        height: 100%;
+    
+        .box_music_first {
+            width: 100%;
+            height: 100%;
+    
+            .box_music {
+                width: 100%;
+                height: 100%;
+    
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
 
-.bg_acompanhar-2 {
-    background: url(../img/mobile/acompanhar-2.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-3 {
-    background: url(../img/mobile/acompanhar-3.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-4 {
-    background: url(../img/mobile/acompanhar-4.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-5 {
-    background: url(../img/mobile/acompanhar-5.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-6 {
-    background: url(../img/mobile/acompanhar-6.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-7 {
-    background: url(../img/mobile/acompanhar-7.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-8 {
-    background: url(../img/mobile/acompanhar-8.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-9 {
-    background: url(../img/mobile/acompanhar-9.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-10 {
-    background: url(../img/mobile/acompanhar-10.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-11 {
-    background: url(../img/mobile/acompanhar-11.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-12 {
-    background: url(../img/mobile/acompanhar-12.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-13 {
-    background: url(../img/mobile/acompanhar-13.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-14 {
-    background: url(../img/mobile/acompanhar-14.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-15 {
-    background: url(../img/mobile/acompanhar-15.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-16 {
-    background: url(../img/mobile/acompanhar-16.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-17 {
-    background: url(../img/mobile/acompanhar-17.png) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-18 {
-    background: url(../img/mobile/acompanhar-18.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-19 {
-    background: url(../img/mobile/acompanhar-19.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.bg_acompanhar-20 {
-    background: url(../img/mobile/acompanhar-20.jpeg) no-repeat center;
-    background-size: cover;
-}
