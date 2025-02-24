@@ -173,8 +173,44 @@ body {
 @media (min-width: 1025px) {
 
     body {
+        user-select: none;
         background-color: #000;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+
+        grid-template-columns: 400px 1fr  ;
+        grid-template-rows: 80px 1fr 60px;
+        height: 100vh;
+        gap: 10px;
+        padding: 10px;
+
+
+        header {
+            grid-area: header;
+        }
+
+        aside {
+            width: 400px;
+            
+            grid-area: aside;
+        }
+
+        main {
+            width: 100%;
+
+            grid-area: main;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+
     }
+
+    
 
     .desktop-warning {
         display: flex;
@@ -186,22 +222,15 @@ body {
 
     main {
         width: 100%;
-        height: 500px;
-        padding: 10px;
-        display: grid;
-        gap: 10px;
-        grid-template-areas: 
-        ".box-area-1 .box-area-2"
-        ;
-        
+        height: 100%;
+        overflow: auto;
+        border-radius: 5px;
+        background-color: #212121;
 
-    .section-2, .section-3,.section-4, .section-5   {
-        display: none;
-    }
 
-    #play {
-        display: flex;
-    }
+        .mobile {
+            display: none;
+        }
 
     }
 
@@ -211,5 +240,8 @@ body {
 
     }
 
-    
+
+    #play {
+        display: flex;
+    }
 }
