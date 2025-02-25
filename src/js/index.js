@@ -395,9 +395,15 @@ function time(){
 // ----------------------
 
 
-const btnMostra = document.getElementById('btn-mostra')
-btnMostra.addEventListener('click', () => {
+const btnMostra = document.querySelectorAll('#btn-mostra');
+btnMostra[0].addEventListener('click', () => {
     const pagArtist = 'src/html/artista_populares.html'
 
     location.href = pagArtist
+})
+
+btnMostra[1].addEventListener('click', () => {
+    const pagAlbuns = 'src/html/albuns.html'
+
+    location.href = pagAlbuns
 })
