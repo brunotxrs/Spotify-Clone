@@ -179,9 +179,8 @@
  
     .section-2 {
         user-select: none;
-        height: 310px;            
+        height: 310px;   
     
-
         .title {
             display: flex;
             flex-direction: row;
@@ -226,12 +225,11 @@
 
         .first_box {
             width: 100%;
-            height: 210px;
+            height: 220px;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-evenly;
-
             position: relative;
 
             .box {
@@ -241,6 +239,7 @@
                 align-items: center;
                 width: 160px;
                 height: 100%;
+                padding-top: 10px;
 
                 .box_img {
                     width: 160px;
@@ -376,5 +375,215 @@
                 }
             }
         }
+    }
+
+
+    /* this are to page albuns */
+
+    .main {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        background-color: #121212;
+
+        .art-pop {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            scrollbar-width: auto;
+    
+            .section-2 {
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                position: relative;
+
+                justify-content: space-evenly;
+
+                column-gap: 10px;
+                row-gap: 20px;
+                
+                .title {
+                    width: 100%;
+    
+                    .h2 {
+    
+                        cursor: pointer;
+                        font-size: 1.8rem;
+                        font-weight: 700;
+                        font-family: var(--font-spotify);
+                        padding: 50px 10px 30px;
+                        
+                    }
+    
+                }
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 180px;
+                    height: 230px;
+                    padding-top: 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+
+                    .box_img {
+                        width: 160px;
+                        height: 220px;
+                        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+    
+                        .back_img {
+                            width: 160px;
+                            height: 160px;
+                            border-radius: 5px;
+                        }
+    
+                    }
+    
+                    .a1, .a2, .a3, .a4, .a5, 
+                    .a6, .a7, .a8, .a9, .a10, 
+                    .a11, .a12, .a13, .a14, .a15, 
+                    .a16, .a17, .a18, .a19 {
+    
+                        .btn-play {
+                            width: 120px;
+                            height: 120px;
+                            position: absolute;
+                            cursor: pointer;
+
+    
+                            .play {
+                                
+                                width: 50px;
+                                height: 50px;
+                                position: relative;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(40%, 40%);
+                                border-radius: 50%;
+                                opacity: 0;
+                                transition: opacity 1s ease-in-out;
+                                background-color: #3BE477;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                            
+                                img {
+                                    width: 25px;
+                                    height: 25px;
+                                    margin: auto;
+                                }
+                            }
+                        }
+    
+                    }
+
+                    .a1:hover, .a2:hover, 
+                    .a3:hover, .a4:hover, 
+                    .a5:hover, .a6:hover, 
+                    .a7:hover, .a8:hover, 
+                    .a9:hover, .a10:hover, 
+                    .a11:hover, .a12:hover, 
+                    .a13:hover, .a14:hover, 
+                    .a15:hover, .a16:hover, 
+                    .a17:hover, .a18:hover, 
+                    .a19:hover {
+    
+                        .play {
+                            opacity: 1;
+                        }
+    
+                    }
+
+                    .leg {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 5px;
+                        padding-left: 10px;
+                        
+
+
+                        .span {
+                            font-weight: 500;
+                            font-size: 0.9rem;
+                            cursor: pointer;
+
+                        }
+
+                        .p-a {
+                            display: flex;
+                            width: 100%;
+                            font-size: 0.8rem;
+                            font-weight: 500;
+                            color: #BBBBBB;
+                           
+                            margin-top: 5px;
+                            cursor: pointer;
+                        }
+        
+                        .span:hover, .p-a:hover {
+                            text-decoration: underline;
+                        }
+    
+                        
+                    }
+    
+                }
+
+                .box:hover {
+                    background-color: var(--background-color-mobile);
+                }
+    
+            }
+    
+    
+    
+        }
+
+        #box_albuns-6, #box_albuns-7, 
+        #box_albuns-8, #box_albuns-9, 
+        #box_albuns-10, #box_albuns-11, #box_albuns-12, #box_albuns-13, #box_albuns-14, #box_albuns-15, #box_albuns-16, #box_albuns-17, #box_albuns-18, #box_albuns-19 {
+            display: flex;
+        }
+
+        .art-pop::-webkit-scrollbar{
+            width: 15px 
+        }
+          
+          
+        .art-pop::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+    
+    
+        .art-pop::-webkit-scrollbar-thumb:hover {
+            background: #b3b3b3;
+        }
+
+    }
+
+    .main:hover {
+
+        .art-pop::-webkit-scrollbar-thumb {
+            background: #5a5a5a; 
+            
+        }
+        
+
     }
 }
