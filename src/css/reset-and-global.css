@@ -173,6 +173,7 @@ body {
 @media (min-width: 1025px) {
 
     body {
+        font-family: var(--font-spotify);
         user-select: none;
         background-color: #000;
         display: grid;
