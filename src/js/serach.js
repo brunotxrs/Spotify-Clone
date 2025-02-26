@@ -23,13 +23,31 @@ function load() {
 }
 
 // Função para detectar pressionamento da tecla Backspace
-document.addEventListener('keydown', function(event) {
-    ind.classList.add('hidden')    
-    if (event.key === 'Backspace') {
-        load()
+// document.addEventListener('pop', function(event) {
+//     ind.classList.add('hidden')    
+//     if (event.key === 'Backspace') {
+//         load()
       
-      // Redireciona para o index principal
-      location.href = pagHome;
+//       // Redireciona para o index principal
+//       location.href = pagHome;
       
-    }
+//     }
+// });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Garante que o histórico tenha um estado inicial para capturar o botão de voltar
+    history.pushState(null, null, location.href);
+
+    window.addEventListener('popstate', function (event) {
+        ind.classList.add('hidden'); // Esconde o elemento
+        
+        load(); // Chama a função que deseja executar
+
+        // Redireciona para a página principal
+        location.href = pagHome;
+
+        // Mantém o usuário na página atual (evita voltar para a anterior)
+        history.pushState(null, null, location.href);
+    });
 });
