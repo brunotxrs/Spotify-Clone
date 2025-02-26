@@ -394,6 +394,11 @@ function time(){
 })();
 // ----------------------
 
+const home = document.getElementById('home');
+home.addEventListener('click', () => {
+    const pageHome = 'index.html'
+    location.href = pageHome
+})
 
 const btnMostra = document.querySelectorAll('#btn-mostra');
 btnMostra[0].addEventListener('click', () => {
