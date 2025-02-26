@@ -394,10 +394,14 @@ function time(){
 })();
 // ----------------------
 
+
 const home = document.getElementById('home');
 home.addEventListener('click', () => {
-    const pageHome = './index.html'
-    location.href = pageHome
+    home.classList.add('homeOcult');
+    const homeAfterClick = document.getElementById('homeAfterClick');
+    homeAfterClick.classList.remove('homeOcult');
+    const pageHome = './index.html';
+    location.href = pageHome;
 })
 
 const btnMostra = document.querySelectorAll('#btn-mostra');
