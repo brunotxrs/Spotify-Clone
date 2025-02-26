@@ -416,7 +416,9 @@
                         font-size: 1.8rem;
                         font-weight: 700;
                         font-family: var(--font-spotify);
-                        padding: 50px 10px 30px;
+                        padding: 50px 25px 30px;
+                        text-decoration: none;
+                        cursor: auto;
                         
                     }
     
@@ -480,6 +482,7 @@
                                 align-items: center;
                                 justify-content: center;
                                 cursor: pointer;
+                                box-shadow: 0 5px 10px #0000008b;
                             
                                 img {
                                     width: 25px;
@@ -520,6 +523,10 @@
                             font-weight: 500;
                             font-size: 0.9rem;
                             cursor: pointer;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
 
                         }
 
