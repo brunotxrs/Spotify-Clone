@@ -1,7 +1,7 @@
 const buscar = document.getElementById('buscar');
 const ind =  document.getElementById('ind')
 const pag3 = 'input.html'
-const pagHome = '../../index.html'
+const pagHome = '../../index.html';
 const loading = document.getElementById('loader')
 buscar.addEventListener('click', () => {
     location.href = pag3
@@ -34,20 +34,22 @@ function load() {
 //     }
 // });
 
+// window.addEventListener('popstate', () => {
+//     ind.classList.add('hidden');        
+//     load();
+//     alert("ola")
+// });
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Garante que o histórico tenha um estado inicial para capturar o botão de voltar
-    history.pushState(null, null, location.href);
 
-    window.addEventListener('popstate', function (event) {
-        ind.classList.add('hidden'); // Esconde o elemento
-        
-        load(); // Chama a função que deseja executar
 
-        // Redireciona para a página principal
-        location.href = pagHome;
+document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") {
 
-        // Mantém o usuário na página atual (evita voltar para a anterior)
-        history.pushState(null, null, location.href);
-    });
+        alert("Você pressionou voltar ou mudou de aba!");
+        ind.classList.add("hidden");        
+        load();
+        location.href = pagHome
+    }
 });
+
+
