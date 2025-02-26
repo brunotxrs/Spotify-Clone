@@ -412,3 +412,9 @@ btnMostra[1].addEventListener('click', () => {
 
     location.href = pagAlbuns
 })
+
+btnMostra[2].addEventListener('click', () => {
+    const pagRadio = 'src/html/radio_pop.html'
+
+    location.href = pagRadio
+})
