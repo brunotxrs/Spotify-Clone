@@ -16,7 +16,7 @@
                 display: none;
             }
 
-            a > img {
+            img {
                 width: 6.25rem;
             }
         }
@@ -138,7 +138,7 @@
                     
                 }
     
-                a > img {
+                img {
                     width: 2rem;
                     height: 2rem;
                 }
@@ -276,10 +276,11 @@
                     
                 }
 
-                a > img {
+                img {
                     width: 35px;
                     height: 35px;
                 }
+
             }
     
             .container-2 {
