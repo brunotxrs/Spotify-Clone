@@ -384,4 +384,213 @@
             }
         }
     }
+
+    /* this is area of styles page radio_pop.html */
+
+    .main {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        background-color: #121212;
+
+        .art-pop {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            scrollbar-width: auto;
+    
+            .section-3 {
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                position: relative;
+
+                justify-content: space-evenly;
+
+                column-gap: 10px;
+                row-gap: 20px;
+                
+                .title {
+                    width: 100%;
+    
+                    .h2 {
+    
+                        cursor: pointer;
+                        font-size: 1.8rem;
+                        font-weight: 700;
+                        font-family: var(--font-spotify);
+                        padding: 50px 25px 30px;
+                        text-decoration: none;
+                        cursor: auto;
+                        
+                    }
+    
+                }
+
+                .box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 195px;
+                    height: 240px;
+                    padding-top: 7px;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+
+                    .box_img {
+
+                        width: 180px;
+                        height: 220px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+    
+                        .back_img {
+                            width: 180px;
+                            height: 180px;
+                            border-radius: 5px;
+                        }
+    
+                    }
+    
+                    .a1, .a2, .a3, .a4, .a5, 
+                    .a6, .a7, .a8, .a9, .a10, 
+                    .a11, .a12, .a13, .a14, .a15, 
+                    .a16, .a17, .a18, .a19, .a20  {
+    
+                        .btn-play {
+                            width: 120px;
+                            height: 120px;
+                            position: absolute;
+                            cursor: pointer;
+
+    
+                            .play {
+                                
+                                width: 50px;
+                                height: 50px;
+                                position: relative;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(40%, 40%);
+                                border-radius: 50%;
+                                opacity: 0;
+                                transition: opacity 1s ease-in-out;
+                                background-color: #3BE477;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                                box-shadow: 0 5px 10px #0000008b;
+                            
+                                img {
+                                    width: 25px;
+                                    height: 25px;
+                                    margin: auto;
+                                }
+                            }
+                        }
+    
+                    }
+
+                    .a1:hover, .a2:hover, 
+                    .a3:hover, .a4:hover, 
+                    .a5:hover, .a6:hover, 
+                    .a7:hover, .a8:hover, 
+                    .a9:hover, .a10:hover, 
+                    .a11:hover, .a12:hover, 
+                    .a13:hover, .a14:hover, 
+                    .a15:hover, .a16:hover, 
+                    .a17:hover, .a18:hover, 
+                    .a19:hover, 
+                    .a20:hover {
+    
+                        .play {
+                            opacity: 1;
+                        }
+    
+                    }
+
+                    .leg {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 5px;
+                        padding-left: 10px;
+                        
+                        .span {
+                            width: 100%;
+                            font-size: 0.8rem;
+                            font-weight: 500;
+                            color: #BBBBBB;
+                           
+                            margin-top: 5px;
+                            cursor: pointer;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+
+                        }
+   
+                    }
+    
+                }
+
+                .box:hover {
+                    background-color: var(--background-color-mobile);
+                }
+    
+            }
+    
+    
+    
+        }
+
+        #radio-6, #radio-7, 
+        #radio-8, #radio-9, 
+        #radio-10, #radio-11, 
+        #radio-12, #radio-13, 
+        #radio-14, #radio-15, 
+        #radio-16, #radio-17, 
+        #radio-18, #radio-19, 
+        #radio-20 {
+            display: flex;
+        }
+
+        .art-pop::-webkit-scrollbar{
+            width: 15px 
+        }
+          
+          
+        .art-pop::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+    
+    
+        .art-pop::-webkit-scrollbar-thumb:hover {
+            background: #b3b3b3;
+        }
+
+    }
+
+    .main:hover {
+
+        .art-pop::-webkit-scrollbar-thumb {
+            background: #5a5a5a; 
+            
+        }
+        
+
+    }
+
 }
