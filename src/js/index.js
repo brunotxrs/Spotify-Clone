@@ -422,3 +422,9 @@ btnMostra[2].addEventListener('click', () => {
 
     location.href = pagRadio
 })
+
+btnMostra[3].addEventListener('click', () => {
+    const pagDestaque = 'src/html/destaques.html'
+
+    location.href = pagDestaque
+})
