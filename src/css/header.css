@@ -296,6 +296,7 @@
                     flex-direction: row;
                     justify-content: left;
                     align-items: center;
+                    cursor: pointer;
 
                     .box-home {
                         width: 55px;
@@ -305,6 +306,8 @@
                         justify-content: center;
                         align-items: center;
 
+                        
+
                         .home {
                             display: flex;
                             justify-content: center;
@@ -313,6 +316,7 @@
                             padding: 10px;
                             width: 45px;
                             height: 45px;background-color: #202020;
+                            position: relative;
 
     
                             .home-gray {
@@ -323,6 +327,10 @@
                             .home-h {
                                 display: none;
                             }
+
+                            .inicio {
+                                display: none;
+                            }
                         }
     
                         .home:hover {
@@ -330,6 +338,23 @@
                             height: 46px;
                             padding: 11px;
                             background-color: #2A2A2A;
+
+                            .inicio {
+                                position: absolute;
+                                top: 30px;
+                                transform: translate(5%, 110%);
+                                width: 45px;
+                                height: 20px;
+                                border-radius: 2px;
+                                padding: 2px 0;
+                                font-size: 0.8rem;
+                                font-weight: 600;
+                                margin: auto;
+                                text-align: center;
+                                color: #f1f1f1;
+                                background-color: #2A2A2A;
+                                display: inline;
+                            }
     
                             .home-gray {
                                 display: none;
@@ -377,6 +402,8 @@
                         .homeOcult {
                             display: none;
                         }
+
+                        
                     }
 
 
@@ -386,9 +413,15 @@
                         background-color: #202020;
                         gap: 5px;
                         border-radius: 25px;
-                        width: 300px;
+                        width: 450px;
                         height: 45px;
                         padding: 0 20px ;
+
+                        position: relative;
+
+                        .ctrl {
+                            display: none;
+                        }
 
                         .search-desktop-gray {
                             width: 25px;
@@ -408,6 +441,12 @@
                             justify-content: center;
                             align-items: center;
 
+                            position: relative;
+
+                            .navegar {
+                                display: none;
+                            }
+
                             .library {
                                 width: 22px;
                                 height: 22px;
@@ -421,6 +460,23 @@
 
                         .bibliot:hover {
 
+                            .navegar {
+                                position: absolute;
+                                top: 15px;
+                                transform: translate(5%, 110%);
+                                width: 65px;
+                                height: 20px;
+                                border-radius: 2px;
+                                padding: 2px 0;
+                                font-size: 0.8rem;
+                                font-weight: 600;
+                                margin: auto;
+                                text-align: center;
+                                color: #f1f1f1;
+                                background-color: #2A2A2A;
+                                display: inline;
+                            }
+
                             .library {
                                 display: none;
                             }
@@ -433,7 +489,7 @@
                         }
 
                         input {
-                            width: 200px;
+                            width: 400px;
                             height: 100%;
                             border: none;
                             outline: none;
@@ -459,6 +515,33 @@
                     .div-search:hover {
                         background-color: #2A2A2A;
                         outline: 1px solid #767676;
+
+                        .ctrl {
+                            display: inline;
+                            text-align: center;
+                            width: 100px;
+                            height: 30px;
+                            top: 10px;
+                            left: 200px;
+                            transform: translate(10%, 10%);
+                            position: absolute;
+
+
+                            span:nth-child(1) {
+                                border-radius: 2px;
+                                outline: 1px solid #BBBBBB;
+                                color: #BBBBBB;
+                                padding: 2px 3px;
+                            }
+
+                            span:nth-child(2) {
+                                border-radius: 2px;
+                                outline: 1px solid #BBBBBB;
+                                color: #BBBBBB;
+                                padding: 2px 3px;
+                            }
+                            
+                        }
 
                         .search-desktop-gray {
                             display: none;
@@ -613,10 +696,11 @@
                         flex-direction: row;
                         justify-content: center;
                         align-items: center;
+                        cursor: pointer;
 
 
                         .btn-entrar {
-
+                            cursor: pointer;
                             width: 98px;
                             height: 48px;
                             display: flex;
@@ -627,6 +711,7 @@
                             background-color: #ffff;
     
                             button {
+                                cursor: pointer;
                                 border: 0;
                                 background-color: transparent;
                                 width: 90%;
@@ -635,6 +720,7 @@
                             }
     
                             span {
+                                cursor: pointer;
                                 font-family: var(--font-spotify);
                                 font-size: 0.9rem;
                                 font-weight: 700;
@@ -646,9 +732,9 @@
                             background-color: #f0f0f0ff;
                             width: 100px;
                             height: 50px;
+                            cursor: pointer;
     
                             button {
-                                /* width: 100%; */
                                 padding: 10px;
     
                             }
