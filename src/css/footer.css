@@ -123,5 +123,87 @@ footer {
         }
     }
 
+}
 
+@media (min-width: 1025px) {
+    footer {
+        width: 100%;
+        height: 90%;
+        background: linear-gradient(50deg, #AF2996, #8e4ec6, #4478db);
+
+        #ft1, #ft2, #ft3, #ft4, #ft5, #ft6, #ft7 {
+            display: none;
+        }
+
+        .teste-gratis {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+           
+
+            h2 {
+                font-family: var(--font-spotify);
+                font-size: 0.9rem;
+                font-weight: 600;
+                padding: 5px 15px;
+                cursor: pointer;
+            }
+
+            p {
+                font-family: var(--font-spotify);
+                font-size: 0.8rem;
+                font-weight: 500;
+                padding: 1px 15px;
+                cursor: pointer;
+            }
+
+
+        }
+
+        .btn-inscrever {
+            width: 170px;
+            height: 45px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 95%;
+                height: 95%;
+                border: none;
+                border-radius: 30px;
+                background-color: #fff;
+                cursor: pointer;
+
+                span {
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    font-family: var(--font-spotify);
+
+                }
+
+            }
+
+            button:hover {
+                width: 100%;
+                height: 100%;
+                background-color: #f1f1f1;
+
+                span {
+                    font-size: 0.92rem;
+                    font-weight: 600;
+                    font-family: var(--font-spotify);
+
+                }
+
+            } 
+        }
+
+
+    }
 }
