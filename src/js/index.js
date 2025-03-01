@@ -1,9 +1,9 @@
 const barsSolid = document.getElementById('bars-solid');
 const xmarkSolid = document.getElementById('xmark-solid');
 const logo = document.getElementById('logo');
-const logo1 = document.getElementById('logo-1')
-const search = document.getElementById('search');
-const button = document.getElementById('button');
+const imgLogoMobile = document.getElementById('img-logo-mobile');
+const searchMobile = document.getElementById('search-mobile');
+const buttonOpenApp = document.getElementById('button-abrir-app');
 const button1 = document.getElementById('button-1');
 const premium = document.getElementById('premium');
 const section = [
@@ -21,11 +21,52 @@ const sectionClip = [
     document.getElementById('section-clip-4'),
     document.getElementById('section-clip-5')
 ];
-const headerNav = document.getElementById('header_nav');
+const headerNavList = document.getElementById('header_navL-list');
 const spanButton = document.getElementById('span');
 const footer = document.getElementById('footer');
 const loader = document.getElementById('loader')
 const pag =  'src/html/search.html'
+
+
+barsSolid.addEventListener('click', () => {
+    
+    barsSolid.classList.add('hidden');
+    xmarkSolid.classList.remove('hidden');
+    headerNavList.classList.remove('hidden');
+    imgLogoMobile.style.opacity = '0';
+    searchMobile.style.opacity = '0';
+    buttonOpenApp.style.opacity = '0';
+    premium.style.display = 'none';
+    section.forEach((dados) => {
+        dados.classList.add('hidden');
+    });
+    footer.classList.add('hidden');
+    
+})
+
+
+xmarkSolid.addEventListener('click', () => {
+    barsSolid.classList.remove('hidden');
+    headerNavList.classList.add('hidden');
+    xmarkSolid.classList.add('hidden');
+    imgLogoMobile.style.opacity = '1';
+    searchMobile.style.opacity = '1';
+    buttonOpenApp.style.opacity = '1';
+    premium.style.display = '';
+    section.forEach((dados) => {
+        dados.classList.remove('hidden');
+    })
+    footer.classList.remove('hidden');
+})
+
+// ------- area do Premium -------------
+const fechar = document.getElementById('fechar');
+fechar.addEventListener('click', () => {
+    premium.classList.add('hidden');
+    
+})
+//------------------------------------------
+
 
 // ir para outra pagina a de buscar
 function carregandoShow(){
@@ -36,6 +77,7 @@ function carregandoShow(){
     tags.forEach((elements) => {
         elements.classList.add('hidden')
     })
+
     loader.classList.remove('hidden');
 }
 
@@ -58,55 +100,6 @@ search.addEventListener('click', () => {
     location.href = pag
     
 })
-
-
-// -------------função do Nav-----------------
-function visivelNav(show) {
-
-    if(show){
-        headerNav.classList.remove('hidden');
-        xmarkSolid.classList.remove('hidden');
-        logo.style.opacity = '0';
-        logo1.classList.add('curso-auto');
-        search.style.opacity = '0';
-        button.style.opacity = '0';
-        spanButton.classList.add('hidden');
-        button1.classList.add('curso-auto');
-        barsSolid.classList.add('hidden');
-        premium.style.display = 'none';
-        section.forEach((elemento) => {
-            elemento.classList.add('hidden');
-
-        })
-        footer.classList.add('hidden');
-        time();
-
-
-        return;
-    } else {
-        headerNav.classList.add('hidden');
-        xmarkSolid.classList.add('hidden');
-        logo.style.opacity = '1';
-        logo1.classList.remove('curso-auto');
-        search.style.opacity = '1';
-        button.style.opacity = '1';
-        spanButton.classList.remove('hidden');
-        button1.classList.remove('curso-auto');
-        barsSolid.classList.remove('hidden');
-        premium.style.display = '';
-        section.forEach((elemento) => {
-            elemento.classList.remove('hidden');
-        })
-        footer.classList.remove('hidden');
-        time();
-        
-    }
-    
-}
-
-barsSolid.addEventListener('click', () => visivelNav(true));
-xmarkSolid.addEventListener('click', () => visivelNav(false));
-
 // ------------------------------------------------------
 
 //---------- Interação carregando --------------------- 
@@ -152,14 +145,6 @@ function carregando(){
 };
 
 // --------------------------------------
-
-// ------- area do Premium -------------
-const fechar = document.getElementById('fechar');
-fechar.addEventListener('click', () => {
-    premium.classList.add('hidden');
-    
-})
-//------------------------------------------
 
 //--------Section First--------------------
 function sectionFirst() {
