@@ -95,7 +95,7 @@ function loading(){
 
 
 
-search.addEventListener('click', () => {
+searchMobile.addEventListener('click', () => {
     loading()
     location.href = pag
     
@@ -168,6 +168,7 @@ function sectionFirst() {
 
     art.forEach((num, index) => {
         num.addEventListener('click', () => {
+
             artist();
             music(index);
             carregando();
