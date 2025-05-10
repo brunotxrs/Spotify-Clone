@@ -690,13 +690,12 @@
                     }
 
                     .box-entrar {
-
-                        width: 150px;
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
                         align-items: center;
                         cursor: pointer;
+                        padding:  0 0 0 0.625rem;
 
 
                         .btn-entrar {
